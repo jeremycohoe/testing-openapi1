@@ -1,0 +1,4446 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data": {
+      "get": {
+        "summary": "GET operation on \"mlppp-oper-data\"",
+        "description": "This endpoint retrieves the device's \"mlppp-oper-data\" resource at XPath: mlppp-oper-data.",
+        "tags": [
+          "View Mlppp-Oper-Data"
+        ],
+        "operationId": "GetMlppp-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics": {
+      "get": {
+        "summary": "GET operation on \"mlppp-statistics\"",
+        "description": "This endpoint retrieves the device's \"mlppp-statistics\" resource at XPath: mlppp-oper-data/mlppp-statistics.",
+        "tags": [
+          "View Mlppp-Statistics"
+        ],
+        "operationId": "GetMlppp-StatisticsById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-lcp-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-lcp-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-lcp-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-lcp-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Lcp-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Lcp-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-unauth-name-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-unauth-name-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-unauth-name-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-unauth-name-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Unauth-Name-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Unauth-Name-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-auth-name-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-auth-name-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-auth-name-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-auth-name-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Auth-Name-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Auth-Name-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-post-lcp-noauth-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-post-lcp-noauth-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-post-lcp-noauth-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-post-lcp-noauth-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Post-Lcp-Noauth-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Post-Lcp-Noauth-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-post-lcp-callback-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-post-lcp-callback-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-post-lcp-callback-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-post-lcp-callback-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Post-Lcp-Callback-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Post-Lcp-Callback-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-forwarded-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-forwarded-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-forwarded-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-forwarded-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Forwarded-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Forwarded-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-at-local-termination-stage": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-at-local-termination-stage\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-at-local-termination-stage\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-at-local-termination-stage.",
+        "tags": [
+          "View Mlppp-Link-At-Local-Termination-Stage"
+        ],
+        "operationId": "GetMlppp-Link-At-Local-Termination-StageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/non-mlppp-sessions": {
+      "get": {
+        "summary": "GET operation on \"non-mlppp-sessions\"",
+        "description": "This endpoint retrieves the device's \"non-mlppp-sessions\" resource at XPath: mlppp-oper-data/mlppp-statistics/non-mlppp-sessions.",
+        "tags": [
+          "View Non-Mlppp-Sessions"
+        ],
+        "operationId": "GetNon-Mlppp-SessionsById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-sessions": {
+      "get": {
+        "summary": "GET operation on \"mlppp-sessions\"",
+        "description": "This endpoint retrieves the device's \"mlppp-sessions\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-sessions.",
+        "tags": [
+          "View Mlppp-Sessions"
+        ],
+        "operationId": "GetMlppp-SessionsById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/non-mlppp-links": {
+      "get": {
+        "summary": "GET operation on \"non-mlppp-links\"",
+        "description": "This endpoint retrieves the device's \"non-mlppp-links\" resource at XPath: mlppp-oper-data/mlppp-statistics/non-mlppp-links.",
+        "tags": [
+          "View Non-Mlppp-Links"
+        ],
+        "operationId": "GetNon-Mlppp-LinksById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-links": {
+      "get": {
+        "summary": "GET operation on \"mlppp-links\"",
+        "description": "This endpoint retrieves the device's \"mlppp-links\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-links.",
+        "tags": [
+          "View Mlppp-Links"
+        ],
+        "operationId": "GetMlppp-LinksById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-authorization-failed": {
+      "get": {
+        "summary": "GET operation on \"mlppp-authorization-failed\"",
+        "description": "This endpoint retrieves the device's \"mlppp-authorization-failed\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-authorization-failed.",
+        "tags": [
+          "View Mlppp-Authorization-Failed"
+        ],
+        "operationId": "GetMlppp-Authorization-FailedById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/removing-mlppp-bundle": {
+      "get": {
+        "summary": "GET operation on \"removing-mlppp-bundle\"",
+        "description": "This endpoint retrieves the device's \"removing-mlppp-bundle\" resource at XPath: mlppp-oper-data/mlppp-statistics/removing-mlppp-bundle.",
+        "tags": [
+          "View Removing-Mlppp-Bundle"
+        ],
+        "operationId": "GetRemoving-Mlppp-BundleById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-requires-authen-or-caller-id": {
+      "get": {
+        "summary": "GET operation on \"mlppp-requires-authen-or-caller-id\"",
+        "description": "This endpoint retrieves the device's \"mlppp-requires-authen-or-caller-id\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-requires-authen-or-caller-id.",
+        "tags": [
+          "View Mlppp-Requires-Authen-Or-Caller-Id"
+        ],
+        "operationId": "GetMlppp-Requires-Authen-Or-Caller-IdById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-drop-link": {
+      "get": {
+        "summary": "GET operation on \"mlppp-drop-link\"",
+        "description": "This endpoint retrieves the device's \"mlppp-drop-link\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-drop-link.",
+        "tags": [
+          "View Mlppp-Drop-Link"
+        ],
+        "operationId": "GetMlppp-Drop-LinkById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-kill-link": {
+      "get": {
+        "summary": "GET operation on \"mlppp-kill-link\"",
+        "description": "This endpoint retrieves the device's \"mlppp-kill-link\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-kill-link.",
+        "tags": [
+          "View Mlppp-Kill-Link"
+        ],
+        "operationId": "GetMlppp-Kill-LinkById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-add-link-failed": {
+      "get": {
+        "summary": "GET operation on \"mlppp-add-link-failed\"",
+        "description": "This endpoint retrieves the device's \"mlppp-add-link-failed\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-add-link-failed.",
+        "tags": [
+          "View Mlppp-Add-Link-Failed"
+        ],
+        "operationId": "GetMlppp-Add-Link-FailedById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-statistics/mlppp-link-not-needed": {
+      "get": {
+        "summary": "GET operation on \"mlppp-link-not-needed\"",
+        "description": "This endpoint retrieves the device's \"mlppp-link-not-needed\" resource at XPath: mlppp-oper-data/mlppp-statistics/mlppp-link-not-needed.",
+        "tags": [
+          "View Mlppp-Link-Not-Needed"
+        ],
+        "operationId": "GetMlppp-Link-Not-NeededById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle": {
+      "get": {
+        "summary": "GET operation on \"mlppp-bundle\"",
+        "description": "This endpoint retrieves the device's \"mlppp-bundle\" resource at XPath: mlppp-oper-data/mlppp-bundle.",
+        "tags": [
+          "View Mlppp-Bundle"
+        ],
+        "operationId": "GetMlppp-BundleById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}": {
+      "get": {
+        "summary": "GET operation on \"mlppp-bundle\"",
+        "description": "This endpoint retrieves the device's \"mlppp-bundle\" resource at XPath: mlppp-oper-data/mlppp-bundle.",
+        "tags": [
+          "View Mlppp-Bundle"
+        ],
+        "operationId": "GetMlppp-BundleElemById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle/if-name": {},
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/bundle-name": {
+      "get": {
+        "summary": "GET operation on \"bundle-name\"",
+        "description": "This endpoint retrieves the device's \"bundle-name\" resource at XPath: mlppp-oper-data/mlppp-bundle/bundle-name.",
+        "tags": [
+          "View Bundle-Name"
+        ],
+        "operationId": "GetBundle-NameById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/bundle-mode": {
+      "get": {
+        "summary": "GET operation on \"bundle-mode\"",
+        "description": "This endpoint retrieves the device's \"bundle-mode\" resource at XPath: mlppp-oper-data/mlppp-bundle/bundle-mode.",
+        "tags": [
+          "View Bundle-Mode"
+        ],
+        "operationId": "GetBundle-ModeById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/remote-username": {
+      "get": {
+        "summary": "GET operation on \"remote-username\"",
+        "description": "This endpoint retrieves the device's \"remote-username\" resource at XPath: mlppp-oper-data/mlppp-bundle/remote-username.",
+        "tags": [
+          "View Remote-Username"
+        ],
+        "operationId": "GetRemote-UsernameById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/local-username": {
+      "get": {
+        "summary": "GET operation on \"local-username\"",
+        "description": "This endpoint retrieves the device's \"local-username\" resource at XPath: mlppp-oper-data/mlppp-bundle/local-username.",
+        "tags": [
+          "View Local-Username"
+        ],
+        "operationId": "GetLocal-UsernameById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/remote-endpoint-discriminator": {
+      "get": {
+        "summary": "GET operation on \"remote-endpoint-discriminator\"",
+        "description": "This endpoint retrieves the device's \"remote-endpoint-discriminator\" resource at XPath: mlppp-oper-data/mlppp-bundle/remote-endpoint-discriminator.",
+        "tags": [
+          "View Remote-Endpoint-Discriminator"
+        ],
+        "operationId": "GetRemote-Endpoint-DiscriminatorById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/local-endpoint-discriminator": {
+      "get": {
+        "summary": "GET operation on \"local-endpoint-discriminator\"",
+        "description": "This endpoint retrieves the device's \"local-endpoint-discriminator\" resource at XPath: mlppp-oper-data/mlppp-bundle/local-endpoint-discriminator.",
+        "tags": [
+          "View Local-Endpoint-Discriminator"
+        ],
+        "operationId": "GetLocal-Endpoint-DiscriminatorById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/bundle-uptime": {
+      "get": {
+        "summary": "GET operation on \"bundle-uptime\"",
+        "description": "This endpoint retrieves the device's \"bundle-uptime\" resource at XPath: mlppp-oper-data/mlppp-bundle/bundle-uptime.",
+        "tags": [
+          "View Bundle-Uptime"
+        ],
+        "operationId": "GetBundle-UptimeById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/total-bandwidth": {
+      "get": {
+        "summary": "GET operation on \"total-bandwidth\"",
+        "description": "This endpoint retrieves the device's \"total-bandwidth\" resource at XPath: mlppp-oper-data/mlppp-bundle/total-bandwidth.",
+        "tags": [
+          "View Total-Bandwidth"
+        ],
+        "operationId": "GetTotal-BandwidthById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/load": {
+      "get": {
+        "summary": "GET operation on \"load\"",
+        "description": "This endpoint retrieves the device's \"load\" resource at XPath: mlppp-oper-data/mlppp-bundle/load.",
+        "tags": [
+          "View Load"
+        ],
+        "operationId": "GetLoadById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/receive-buffer-limit": {
+      "get": {
+        "summary": "GET operation on \"receive-buffer-limit\"",
+        "description": "This endpoint retrieves the device's \"receive-buffer-limit\" resource at XPath: mlppp-oper-data/mlppp-bundle/receive-buffer-limit.",
+        "tags": [
+          "View Receive-Buffer-Limit"
+        ],
+        "operationId": "GetReceive-Buffer-LimitById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/frag-timeout": {
+      "get": {
+        "summary": "GET operation on \"frag-timeout\"",
+        "description": "This endpoint retrieves the device's \"frag-timeout\" resource at XPath: mlppp-oper-data/mlppp-bundle/frag-timeout.",
+        "tags": [
+          "View Frag-Timeout"
+        ],
+        "operationId": "GetFrag-TimeoutById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/fragment-per-byte-in-reassembly-list": {
+      "get": {
+        "summary": "GET operation on \"fragment-per-byte-in-reassembly-list\"",
+        "description": "This endpoint retrieves the device's \"fragment-per-byte-in-reassembly-list\" resource at XPath: mlppp-oper-data/mlppp-bundle/fragment-per-byte-in-reassembly-list.",
+        "tags": [
+          "View Fragment-Per-Byte-In-Reassembly-List"
+        ],
+        "operationId": "GetFragment-Per-Byte-In-Reassembly-ListById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/lost-fragments": {
+      "get": {
+        "summary": "GET operation on \"lost-fragments\"",
+        "description": "This endpoint retrieves the device's \"lost-fragments\" resource at XPath: mlppp-oper-data/mlppp-bundle/lost-fragments.",
+        "tags": [
+          "View Lost-Fragments"
+        ],
+        "operationId": "GetLost-FragmentsById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/reordered": {
+      "get": {
+        "summary": "GET operation on \"reordered\"",
+        "description": "This endpoint retrieves the device's \"reordered\" resource at XPath: mlppp-oper-data/mlppp-bundle/reordered.",
+        "tags": [
+          "View Reordered"
+        ],
+        "operationId": "GetReorderedById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/discarded-fragments-per-byte": {
+      "get": {
+        "summary": "GET operation on \"discarded-fragments-per-byte\"",
+        "description": "This endpoint retrieves the device's \"discarded-fragments-per-byte\" resource at XPath: mlppp-oper-data/mlppp-bundle/discarded-fragments-per-byte.",
+        "tags": [
+          "View Discarded-Fragments-Per-Byte"
+        ],
+        "operationId": "GetDiscarded-Fragments-Per-ByteById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/lost-received": {
+      "get": {
+        "summary": "GET operation on \"lost-received\"",
+        "description": "This endpoint retrieves the device's \"lost-received\" resource at XPath: mlppp-oper-data/mlppp-bundle/lost-received.",
+        "tags": [
+          "View Lost-Received"
+        ],
+        "operationId": "GetLost-ReceivedById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/member-links": {
+      "get": {
+        "summary": "GET operation on \"member-links\"",
+        "description": "This endpoint retrieves the device's \"member-links\" resource at XPath: mlppp-oper-data/mlppp-bundle/member-links.",
+        "tags": [
+          "View Member-Links"
+        ],
+        "operationId": "GetMember-LinksById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/member-link-max": {
+      "get": {
+        "summary": "GET operation on \"member-link-max\"",
+        "description": "This endpoint retrieves the device's \"member-link-max\" resource at XPath: mlppp-oper-data/mlppp-bundle/member-link-max.",
+        "tags": [
+          "View Member-Link-Max"
+        ],
+        "operationId": "GetMember-Link-MaxById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/member-link-min": {
+      "get": {
+        "summary": "GET operation on \"member-link-min\"",
+        "description": "This endpoint retrieves the device's \"member-link-min\" resource at XPath: mlppp-oper-data/mlppp-bundle/member-link-min.",
+        "tags": [
+          "View Member-Link-Min"
+        ],
+        "operationId": "GetMember-Link-MinById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/member-type": {
+      "get": {
+        "summary": "GET operation on \"member-type\"",
+        "description": "This endpoint retrieves the device's \"member-type\" resource at XPath: mlppp-oper-data/mlppp-bundle/member-type.",
+        "tags": [
+          "View Member-Type"
+        ],
+        "operationId": "GetMember-TypeById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/interface-up-time": {
+      "get": {
+        "summary": "GET operation on \"interface-up-time\"",
+        "description": "This endpoint retrieves the device's \"interface-up-time\" resource at XPath: mlppp-oper-data/mlppp-bundle/interface-up-time.",
+        "tags": [
+          "View Interface-Up-Time"
+        ],
+        "operationId": "GetInterface-Up-TimeElemById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle/interface-up-time/if-name": {},
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/interface-up-time/if-name": {
+      "get": {
+        "summary": "GET operation on \"if-name\"",
+        "description": "This endpoint retrieves the device's \"if-name\" resource at XPath: mlppp-oper-data/mlppp-bundle/interface-up-time/if-name.",
+        "tags": [
+          "View If-Name"
+        ],
+        "operationId": "GetIf-NameById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/interface-up-time/up-time": {
+      "get": {
+        "summary": "GET operation on \"up-time\"",
+        "description": "This endpoint retrieves the device's \"up-time\" resource at XPath: mlppp-oper-data/mlppp-bundle/interface-up-time/up-time.",
+        "tags": [
+          "View Up-Time"
+        ],
+        "operationId": "GetUp-TimeById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mlppp-oper:mlppp-oper-data/mlppp-bundle={mlppp-bundle-if-name}/interface-up-time/member-type": {
+      "get": {
+        "summary": "GET operation on \"member-type\"",
+        "description": "This endpoint retrieves the device's \"member-type\" resource at XPath: mlppp-oper-data/mlppp-bundle/interface-up-time/member-type.",
+        "tags": [
+          "View Member-Type"
+        ],
+        "operationId": "GetMember-TypeById",
+        "parameters": [
+          {
+            "name": "mlppp-bundle-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Mlppp-OperMlppp-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "mlppp-oper-data": {
+            "type": "object",
+            "properties": {
+              "mlppp-bundle": {
+                "type": "object",
+                "properties": {
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "bundle-name": {
+                    "type": "string"
+                  },
+                  "bundle-mode": {
+                    "type": "string"
+                  },
+                  "remote-username": {
+                    "type": "string"
+                  },
+                  "local-username": {
+                    "type": "string"
+                  },
+                  "remote-endpoint-discriminator": {
+                    "type": "string"
+                  },
+                  "local-endpoint-discriminator": {
+                    "type": "string"
+                  },
+                  "bundle-uptime": {
+                    "type": "string"
+                  },
+                  "total-bandwidth": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "load": {
+                    "type": "string"
+                  },
+                  "receive-buffer-limit": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "frag-timeout": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "fragment-per-byte-in-reassembly-list": {
+                    "type": "string"
+                  },
+                  "lost-fragments": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "reordered": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "discarded-fragments-per-byte": {
+                    "type": "string"
+                  },
+                  "lost-received": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-link-max": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-link-min": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-type": {
+                    "type": "string"
+                  },
+                  "interface-up-time": {
+                    "type": "object",
+                    "properties": {
+                      "if-name": {
+                        "type": "string"
+                      },
+                      "up-time": {
+                        "type": "string"
+                      },
+                      "member-type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "mlppp-statistics": {
+                "type": "object",
+                "properties": {
+                  "mlppp-link-at-lcp-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-unauth-name-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-auth-name-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-post-lcp-noauth-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-post-lcp-callback-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-forwarded-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-local-termination-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "non-mlppp-sessions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-sessions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "non-mlppp-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-authorization-failed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "removing-mlppp-bundle": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-requires-authen-or-caller-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-drop-link": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-kill-link": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-add-link-failed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-not-needed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Mlppp-OperMlppp-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mlppp-oper-data": {
+            "type": "object",
+            "properties": {
+              "mlppp-bundle": {
+                "type": "object",
+                "properties": {
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "bundle-name": {
+                    "type": "string"
+                  },
+                  "bundle-mode": {
+                    "type": "string"
+                  },
+                  "remote-username": {
+                    "type": "string"
+                  },
+                  "local-username": {
+                    "type": "string"
+                  },
+                  "remote-endpoint-discriminator": {
+                    "type": "string"
+                  },
+                  "local-endpoint-discriminator": {
+                    "type": "string"
+                  },
+                  "bundle-uptime": {
+                    "type": "string"
+                  },
+                  "total-bandwidth": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "load": {
+                    "type": "string"
+                  },
+                  "receive-buffer-limit": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "frag-timeout": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "fragment-per-byte-in-reassembly-list": {
+                    "type": "string"
+                  },
+                  "lost-fragments": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "reordered": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "discarded-fragments-per-byte": {
+                    "type": "string"
+                  },
+                  "lost-received": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-link-max": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-link-min": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "member-type": {
+                    "type": "string"
+                  },
+                  "interface-up-time": {
+                    "type": "object",
+                    "properties": {
+                      "if-name": {
+                        "type": "string"
+                      },
+                      "up-time": {
+                        "type": "string"
+                      },
+                      "member-type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "mlppp-statistics": {
+                "type": "object",
+                "properties": {
+                  "mlppp-link-at-lcp-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-unauth-name-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-auth-name-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-post-lcp-noauth-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-post-lcp-callback-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-forwarded-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-at-local-termination-stage": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "non-mlppp-sessions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-sessions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "non-mlppp-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-links": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-authorization-failed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "removing-mlppp-bundle": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-requires-authen-or-caller-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-drop-link": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-kill-link": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-add-link-failed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "mlppp-link-not-needed": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mlppp-oper-data"
+        }
+      },
+      "Mlppp-Oper-DataMlppp-StatisticsSchemaById": {
+        "type": "object",
+        "properties": {
+          "mlppp-statistics": {
+            "type": "object",
+            "properties": {
+              "mlppp-add-link-failed": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-auth-name-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-post-lcp-noauth-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-links": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-local-termination-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "non-mlppp-sessions": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "non-mlppp-links": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-post-lcp-callback-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-requires-authen-or-caller-id": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-drop-link": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-not-needed": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-lcp-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-sessions": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "removing-mlppp-bundle": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-forwarded-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-kill-link": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-unauth-name-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-authorization-failed": {
+                "type": "integer",
+                "format": "uint32"
+              }
+            }
+          }
+        }
+      },
+      "Mlppp-Oper-DataMlppp-StatisticsSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mlppp-statistics": {
+            "type": "object",
+            "properties": {
+              "mlppp-add-link-failed": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-auth-name-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-post-lcp-noauth-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-links": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-local-termination-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "non-mlppp-sessions": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "non-mlppp-links": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-post-lcp-callback-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-requires-authen-or-caller-id": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-drop-link": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-not-needed": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-lcp-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-sessions": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "removing-mlppp-bundle": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-forwarded-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-kill-link": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-link-at-unauth-name-stage": {
+                "type": "integer",
+                "format": "uint32"
+              },
+              "mlppp-authorization-failed": {
+                "type": "integer",
+                "format": "uint32"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mlppp-statistics"
+        }
+      },
+      "Mlppp-Oper-DataMlppp-BundleSchemaById": {
+        "type": "object",
+        "properties": {
+          "mlppp-bundle": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "bundle-name": {
+                  "type": "string"
+                },
+                "bundle-mode": {
+                  "type": "string"
+                },
+                "remote-username": {
+                  "type": "string"
+                },
+                "local-username": {
+                  "type": "string"
+                },
+                "remote-endpoint-discriminator": {
+                  "type": "string"
+                },
+                "local-endpoint-discriminator": {
+                  "type": "string"
+                },
+                "bundle-uptime": {
+                  "type": "string"
+                },
+                "total-bandwidth": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "load": {
+                  "type": "string"
+                },
+                "receive-buffer-limit": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "frag-timeout": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "fragment-per-byte-in-reassembly-list": {
+                  "type": "string"
+                },
+                "lost-fragments": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "reordered": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "discarded-fragments-per-byte": {
+                  "type": "string"
+                },
+                "lost-received": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-links": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-link-max": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-link-min": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-type": {
+                  "type": "string"
+                },
+                "interface-up-time": {
+                  "type": "object",
+                  "properties": {
+                    "if-name": {
+                      "type": "string"
+                    },
+                    "up-time": {
+                      "type": "string"
+                    },
+                    "member-type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mlppp-Oper-DataMlppp-BundleSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mlppp-bundle": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "bundle-name": {
+                  "type": "string"
+                },
+                "bundle-mode": {
+                  "type": "string"
+                },
+                "remote-username": {
+                  "type": "string"
+                },
+                "local-username": {
+                  "type": "string"
+                },
+                "remote-endpoint-discriminator": {
+                  "type": "string"
+                },
+                "local-endpoint-discriminator": {
+                  "type": "string"
+                },
+                "bundle-uptime": {
+                  "type": "string"
+                },
+                "total-bandwidth": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "load": {
+                  "type": "string"
+                },
+                "receive-buffer-limit": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "frag-timeout": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "fragment-per-byte-in-reassembly-list": {
+                  "type": "string"
+                },
+                "lost-fragments": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "reordered": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "discarded-fragments-per-byte": {
+                  "type": "string"
+                },
+                "lost-received": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-links": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-link-max": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-link-min": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "member-type": {
+                  "type": "string"
+                },
+                "interface-up-time": {
+                  "type": "object",
+                  "properties": {
+                    "if-name": {
+                      "type": "string"
+                    },
+                    "up-time": {
+                      "type": "string"
+                    },
+                    "member-type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mlppp-bundle"
+        }
+      },
+      "Mlppp-BundleInterface-Up-TimeSchemaById": {
+        "type": "object",
+        "properties": {
+          "interface-up-time": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "up-time": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "member-type": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mlppp-BundleInterface-Up-TimeSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "interface-up-time": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "up-time": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "member-type": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "interface-up-time"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

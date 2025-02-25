@@ -3,7 +3,10 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "swagger.json",
+    urls = [
+      { url: "Cisco-IOS-XE-aaa-oper.json", name: "Cisco IOS XE AAA Oper" },
+      { url: "Cisco-IOS-XE-acl-oper.json", name: "Cisco IOS XE ACL Oper" },
+    ],    
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
