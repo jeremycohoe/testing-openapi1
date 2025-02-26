@@ -14658,8 +14658,8 @@
   ],
   "servers": [
     {
-      "url": "http://<HOST ADDRESS>/restconf",
-      "description": "Example RESTCONF API Endpoint"
+      "url": "https://devnetsandboxiosxe.cisco.com/restconf",
+      "description": "DevNet Sandbox IOSXE cisco.com Always On C8KV Sandbox"
     }
   ],
   "info": {
