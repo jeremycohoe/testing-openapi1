@@ -1,0 +1,910 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data": {
+      "get": {
+        "summary": "GET operation on \"rg-oper-data\"",
+        "description": "This endpoint retrieves the device's \"rg-oper-data\" resource at XPath: rg-oper-data.",
+        "tags": [
+          "View Rg-Oper-Data"
+        ],
+        "operationId": "GetRg-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group": {
+      "get": {
+        "summary": "GET operation on \"red-app-group\"",
+        "description": "This endpoint retrieves the device's \"red-app-group\" resource at XPath: rg-oper-data/red-app-group.",
+        "tags": [
+          "View Red-App-Group"
+        ],
+        "operationId": "GetRed-App-GroupById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}": {
+      "get": {
+        "summary": "GET operation on \"red-app-group\"",
+        "description": "This endpoint retrieves the device's \"red-app-group\" resource at XPath: rg-oper-data/red-app-group.",
+        "tags": [
+          "View Red-App-Group"
+        ],
+        "operationId": "GetRed-App-GroupElemById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group/rg-id": {},
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/sys-time": {
+      "get": {
+        "summary": "GET operation on \"sys-time\"",
+        "description": "This endpoint retrieves the device's \"sys-time\" resource at XPath: rg-oper-data/red-app-group/sys-time.",
+        "tags": [
+          "View Sys-Time"
+        ],
+        "operationId": "GetSys-TimeById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/site-id": {
+      "get": {
+        "summary": "GET operation on \"site-id\"",
+        "description": "This endpoint retrieves the device's \"site-id\" resource at XPath: rg-oper-data/red-app-group/site-id.",
+        "tags": [
+          "View Site-Id"
+        ],
+        "operationId": "GetSite-IdById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/sys-ip-addr": {
+      "get": {
+        "summary": "GET operation on \"sys-ip-addr\"",
+        "description": "This endpoint retrieves the device's \"sys-ip-addr\" resource at XPath: rg-oper-data/red-app-group/sys-ip-addr.",
+        "tags": [
+          "View Sys-Ip-Addr"
+        ],
+        "operationId": "GetSys-Ip-AddrById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/role": {
+      "get": {
+        "summary": "GET operation on \"role\"",
+        "description": "This endpoint retrieves the device's \"role\" resource at XPath: rg-oper-data/red-app-group/role.",
+        "tags": [
+          "View Role"
+        ],
+        "operationId": "GetRoleById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/group-name": {
+      "get": {
+        "summary": "GET operation on \"group-name\"",
+        "description": "This endpoint retrieves the device's \"group-name\" resource at XPath: rg-oper-data/red-app-group/group-name.",
+        "tags": [
+          "View Group-Name"
+        ],
+        "operationId": "GetGroup-NameById",
+        "parameters": [
+          {
+            "name": "red-app-group-rg-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-rg-oper:rg-oper-data/red-app-group={red-app-group-rg-id}/vpn-id": {}
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Rg-OperRg-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "rg-oper-data": {
+            "type": "object",
+            "properties": {
+              "red-app-group": {
+                "type": "object",
+                "properties": {
+                  "rg-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sys-time": {
+                    "type": "string"
+                  },
+                  "site-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sys-ip-addr": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  },
+                  "group-name": {
+                    "type": "string"
+                  },
+                  "vpn-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Rg-OperRg-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "rg-oper-data": {
+            "type": "object",
+            "properties": {
+              "red-app-group": {
+                "type": "object",
+                "properties": {
+                  "rg-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sys-time": {
+                    "type": "string"
+                  },
+                  "site-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sys-ip-addr": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  },
+                  "group-name": {
+                    "type": "string"
+                  },
+                  "vpn-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "rg-oper-data"
+        }
+      },
+      "Rg-Oper-DataRed-App-GroupSchemaById": {
+        "type": "object",
+        "properties": {
+          "red-app-group": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "group-name": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string",
+                  "properties": {
+                    "is-ms": {
+                      "type": "boolean"
+                    },
+                    "is-mr": {
+                      "type": "boolean"
+                    },
+                    "is-itr": {
+                      "type": "boolean"
+                    },
+                    "is-etr": {
+                      "type": "boolean"
+                    },
+                    "is-pitr": {
+                      "type": "boolean"
+                    },
+                    "is-petr": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "rg-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sys-time": {
+                  "type": "string"
+                },
+                "site-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sys-ip-addr": {
+                  "type": "string"
+                },
+                "vpn-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Rg-Oper-DataRed-App-GroupSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "red-app-group": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "group-name": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string",
+                  "properties": {
+                    "is-ms": {
+                      "type": "boolean"
+                    },
+                    "is-mr": {
+                      "type": "boolean"
+                    },
+                    "is-itr": {
+                      "type": "boolean"
+                    },
+                    "is-etr": {
+                      "type": "boolean"
+                    },
+                    "is-pitr": {
+                      "type": "boolean"
+                    },
+                    "is-petr": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "rg-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sys-time": {
+                  "type": "string"
+                },
+                "site-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sys-ip-addr": {
+                  "type": "string"
+                },
+                "vpn-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "red-app-group"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

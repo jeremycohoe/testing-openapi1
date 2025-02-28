@@ -1,0 +1,1110 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes": {
+      "get": {
+        "summary": "GET operation on \"memory-usage-processes\"",
+        "description": "This endpoint retrieves the device's \"memory-usage-processes\" resource at XPath: memory-usage-processes.",
+        "tags": [
+          "View Memory-Usage-Processes"
+        ],
+        "operationId": "GetMemory-Usage-ProcessesById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process": {
+      "get": {
+        "summary": "GET operation on \"memory-usage-process\"",
+        "description": "This endpoint retrieves the device's \"memory-usage-process\" resource at XPath: memory-usage-processes/memory-usage-process.",
+        "tags": [
+          "View Memory-Usage-Process"
+        ],
+        "operationId": "GetMemory-Usage-ProcessById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}": {
+      "get": {
+        "summary": "GET operation on \"memory-usage-process\"",
+        "description": "This endpoint retrieves the device's \"memory-usage-process\" resource at XPath: memory-usage-processes/memory-usage-process.",
+        "tags": [
+          "View Memory-Usage-Process"
+        ],
+        "operationId": "GetMemory-Usage-ProcessElemById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process/pid": {},
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process/name": {},
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/tty": {
+      "get": {
+        "summary": "GET operation on \"tty\"",
+        "description": "This endpoint retrieves the device's \"tty\" resource at XPath: memory-usage-processes/memory-usage-process/tty.",
+        "tags": [
+          "View Tty"
+        ],
+        "operationId": "GetTtyById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/allocated-memory": {
+      "get": {
+        "summary": "GET operation on \"allocated-memory\"",
+        "description": "This endpoint retrieves the device's \"allocated-memory\" resource at XPath: memory-usage-processes/memory-usage-process/allocated-memory.",
+        "tags": [
+          "View Allocated-Memory"
+        ],
+        "operationId": "GetAllocated-MemoryById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/freed-memory": {
+      "get": {
+        "summary": "GET operation on \"freed-memory\"",
+        "description": "This endpoint retrieves the device's \"freed-memory\" resource at XPath: memory-usage-processes/memory-usage-process/freed-memory.",
+        "tags": [
+          "View Freed-Memory"
+        ],
+        "operationId": "GetFreed-MemoryById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/holding-memory": {
+      "get": {
+        "summary": "GET operation on \"holding-memory\"",
+        "description": "This endpoint retrieves the device's \"holding-memory\" resource at XPath: memory-usage-processes/memory-usage-process/holding-memory.",
+        "tags": [
+          "View Holding-Memory"
+        ],
+        "operationId": "GetHolding-MemoryById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/get-buffers": {
+      "get": {
+        "summary": "GET operation on \"get-buffers\"",
+        "description": "This endpoint retrieves the device's \"get-buffers\" resource at XPath: memory-usage-processes/memory-usage-process/get-buffers.",
+        "tags": [
+          "View Get-Buffers"
+        ],
+        "operationId": "GetGet-BuffersById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes/memory-usage-process={memory-usage-process-pid},{memory-usage-process-name}/ret-buffers": {
+      "get": {
+        "summary": "GET operation on \"ret-buffers\"",
+        "description": "This endpoint retrieves the device's \"ret-buffers\" resource at XPath: memory-usage-processes/memory-usage-process/ret-buffers.",
+        "tags": [
+          "View Ret-Buffers"
+        ],
+        "operationId": "GetRet-BuffersById",
+        "parameters": [
+          {
+            "name": "memory-usage-process-pid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "memory-usage-process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "process-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Process-Memory-OperMemory-Usage-ProcessesSchemaById": {
+        "type": "object",
+        "properties": {
+          "memory-usage-processes": {
+            "type": "object",
+            "properties": {
+              "memory-usage-process": {
+                "type": "object",
+                "properties": {
+                  "pid": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "tty": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "allocated-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "freed-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "holding-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "get-buffers": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "ret-buffers": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Process-Memory-OperMemory-Usage-ProcessesSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "memory-usage-processes": {
+            "type": "object",
+            "properties": {
+              "memory-usage-process": {
+                "type": "object",
+                "properties": {
+                  "pid": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "tty": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "allocated-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "freed-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "holding-memory": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "get-buffers": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "ret-buffers": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "memory-usage-processes"
+        }
+      },
+      "Memory-Usage-ProcessesMemory-Usage-ProcessSchemaById": {
+        "type": "object",
+        "properties": {
+          "memory-usage-process": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "pid": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "tty": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "allocated-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "freed-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "holding-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "get-buffers": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "ret-buffers": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Memory-Usage-ProcessesMemory-Usage-ProcessSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "memory-usage-process": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "pid": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "tty": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "allocated-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "freed-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "holding-memory": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "get-buffers": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "ret-buffers": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "memory-usage-process"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

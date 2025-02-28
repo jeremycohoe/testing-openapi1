@@ -1,0 +1,3583 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data": {
+      "get": {
+        "summary": "GET operation on \"mdt-capabilities-oper-data\"",
+        "description": "This endpoint retrieves the device's \"mdt-capabilities-oper-data\" resource at XPath: mdt-capabilities-oper-data.",
+        "tags": [
+          "View Mdt-Capabilities-Oper-Data"
+        ],
+        "operationId": "GetMdt-Capabilities-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system": {
+      "get": {
+        "summary": "GET operation on \"mdt-system\"",
+        "description": "This endpoint retrieves the device's \"mdt-system\" resource at XPath: mdt-capabilities-oper-data/mdt-system.",
+        "tags": [
+          "View Mdt-System"
+        ],
+        "operationId": "GetMdt-SystemById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/sub-caps": {
+      "get": {
+        "summary": "GET operation on \"sub-caps\"",
+        "description": "This endpoint retrieves the device's \"sub-caps\" resource at XPath: mdt-capabilities-oper-data/mdt-system/sub-caps.",
+        "tags": [
+          "View Sub-Caps"
+        ],
+        "operationId": "GetSub-CapsById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/sub-caps/periodic-is-valid": {
+      "get": {
+        "summary": "GET operation on \"periodic-is-valid\"",
+        "description": "This endpoint retrieves the device's \"periodic-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/sub-caps/periodic-is-valid.",
+        "tags": [
+          "View Periodic-Is-Valid"
+        ],
+        "operationId": "GetPeriodic-Is-ValidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/sub-caps/on-change-is-valid": {
+      "get": {
+        "summary": "GET operation on \"on-change-is-valid\"",
+        "description": "This endpoint retrieves the device's \"on-change-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/sub-caps/on-change-is-valid.",
+        "tags": [
+          "View On-Change-Is-Valid"
+        ],
+        "operationId": "GetOn-Change-Is-ValidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/sub-caps/periodic-supported": {
+      "get": {
+        "summary": "GET operation on \"periodic-supported\"",
+        "description": "This endpoint retrieves the device's \"periodic-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/sub-caps/periodic-supported.",
+        "tags": [
+          "View Periodic-Supported"
+        ],
+        "operationId": "GetPeriodic-SupportedById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/sub-caps/on-change-supported": {
+      "get": {
+        "summary": "GET operation on \"on-change-supported\"",
+        "description": "This endpoint retrieves the device's \"on-change-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/sub-caps/on-change-supported.",
+        "tags": [
+          "View On-Change-Supported"
+        ],
+        "operationId": "GetOn-Change-SupportedById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore": {
+      "get": {
+        "summary": "GET operation on \"mdt-datastore\"",
+        "description": "This endpoint retrieves the device's \"mdt-datastore\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore.",
+        "tags": [
+          "View Mdt-Datastore"
+        ],
+        "operationId": "GetMdt-DatastoreById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}": {
+      "get": {
+        "summary": "GET operation on \"mdt-datastore\"",
+        "description": "This endpoint retrieves the device's \"mdt-datastore\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore.",
+        "tags": [
+          "View Mdt-Datastore"
+        ],
+        "operationId": "GetMdt-DatastoreElemById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore/datastore": {},
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node": {
+      "get": {
+        "summary": "GET operation on \"mdt-per-node\"",
+        "description": "This endpoint retrieves the device's \"mdt-per-node\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node.",
+        "tags": [
+          "View Mdt-Per-Node"
+        ],
+        "operationId": "GetMdt-Per-NodeById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}": {
+      "get": {
+        "summary": "GET operation on \"mdt-per-node\"",
+        "description": "This endpoint retrieves the device's \"mdt-per-node\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node.",
+        "tags": [
+          "View Mdt-Per-Node"
+        ],
+        "operationId": "GetMdt-Per-NodeElemById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node/index": {},
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/sub-caps": {
+      "get": {
+        "summary": "GET operation on \"sub-caps\"",
+        "description": "This endpoint retrieves the device's \"sub-caps\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/sub-caps.",
+        "tags": [
+          "View Sub-Caps"
+        ],
+        "operationId": "GetSub-CapsById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/sub-caps/periodic-is-valid": {
+      "get": {
+        "summary": "GET operation on \"periodic-is-valid\"",
+        "description": "This endpoint retrieves the device's \"periodic-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/sub-caps/periodic-is-valid.",
+        "tags": [
+          "View Periodic-Is-Valid"
+        ],
+        "operationId": "GetPeriodic-Is-ValidById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/sub-caps/on-change-is-valid": {
+      "get": {
+        "summary": "GET operation on \"on-change-is-valid\"",
+        "description": "This endpoint retrieves the device's \"on-change-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/sub-caps/on-change-is-valid.",
+        "tags": [
+          "View On-Change-Is-Valid"
+        ],
+        "operationId": "GetOn-Change-Is-ValidById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/sub-caps/periodic-supported": {
+      "get": {
+        "summary": "GET operation on \"periodic-supported\"",
+        "description": "This endpoint retrieves the device's \"periodic-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/sub-caps/periodic-supported.",
+        "tags": [
+          "View Periodic-Supported"
+        ],
+        "operationId": "GetPeriodic-SupportedById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/sub-caps/on-change-supported": {
+      "get": {
+        "summary": "GET operation on \"on-change-supported\"",
+        "description": "This endpoint retrieves the device's \"on-change-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/sub-caps/on-change-supported.",
+        "tags": [
+          "View On-Change-Supported"
+        ],
+        "operationId": "GetOn-Change-SupportedById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-per-node={mdt-per-node-index}/xpath": {
+      "get": {
+        "summary": "GET operation on \"xpath\"",
+        "description": "This endpoint retrieves the device's \"xpath\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-per-node/xpath.",
+        "tags": [
+          "View Xpath"
+        ],
+        "operationId": "GetXpathById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport": {
+      "get": {
+        "summary": "GET operation on \"mdt-transport\"",
+        "description": "This endpoint retrieves the device's \"mdt-transport\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport.",
+        "tags": [
+          "View Mdt-Transport"
+        ],
+        "operationId": "GetMdt-TransportById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}": {
+      "get": {
+        "summary": "GET operation on \"mdt-transport\"",
+        "description": "This endpoint retrieves the device's \"mdt-transport\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport.",
+        "tags": [
+          "View Mdt-Transport"
+        ],
+        "operationId": "GetMdt-TransportElemById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport/transport": {},
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node": {
+      "get": {
+        "summary": "GET operation on \"mdt-transport-per-node\"",
+        "description": "This endpoint retrieves the device's \"mdt-transport-per-node\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node.",
+        "tags": [
+          "View Mdt-Transport-Per-Node"
+        ],
+        "operationId": "GetMdt-Transport-Per-NodeById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}": {
+      "get": {
+        "summary": "GET operation on \"mdt-transport-per-node\"",
+        "description": "This endpoint retrieves the device's \"mdt-transport-per-node\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node.",
+        "tags": [
+          "View Mdt-Transport-Per-Node"
+        ],
+        "operationId": "GetMdt-Transport-Per-NodeElemById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node/index": {},
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/sub-caps": {
+      "get": {
+        "summary": "GET operation on \"sub-caps\"",
+        "description": "This endpoint retrieves the device's \"sub-caps\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/sub-caps.",
+        "tags": [
+          "View Sub-Caps"
+        ],
+        "operationId": "GetSub-CapsById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/sub-caps/periodic-is-valid": {
+      "get": {
+        "summary": "GET operation on \"periodic-is-valid\"",
+        "description": "This endpoint retrieves the device's \"periodic-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/sub-caps/periodic-is-valid.",
+        "tags": [
+          "View Periodic-Is-Valid"
+        ],
+        "operationId": "GetPeriodic-Is-ValidById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/sub-caps/on-change-is-valid": {
+      "get": {
+        "summary": "GET operation on \"on-change-is-valid\"",
+        "description": "This endpoint retrieves the device's \"on-change-is-valid\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/sub-caps/on-change-is-valid.",
+        "tags": [
+          "View On-Change-Is-Valid"
+        ],
+        "operationId": "GetOn-Change-Is-ValidById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/sub-caps/periodic-supported": {
+      "get": {
+        "summary": "GET operation on \"periodic-supported\"",
+        "description": "This endpoint retrieves the device's \"periodic-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/sub-caps/periodic-supported.",
+        "tags": [
+          "View Periodic-Supported"
+        ],
+        "operationId": "GetPeriodic-SupportedById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/sub-caps/on-change-supported": {
+      "get": {
+        "summary": "GET operation on \"on-change-supported\"",
+        "description": "This endpoint retrieves the device's \"on-change-supported\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/sub-caps/on-change-supported.",
+        "tags": [
+          "View On-Change-Supported"
+        ],
+        "operationId": "GetOn-Change-SupportedById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-mdt-capabilities-oper:mdt-capabilities-oper-data/mdt-system/mdt-datastore={mdt-datastore-datastore}/mdt-transport={mdt-transport-transport}/mdt-transport-per-node={mdt-transport-per-node-index}/xpath": {
+      "get": {
+        "summary": "GET operation on \"xpath\"",
+        "description": "This endpoint retrieves the device's \"xpath\" resource at XPath: mdt-capabilities-oper-data/mdt-system/mdt-datastore/mdt-transport/mdt-transport-per-node/xpath.",
+        "tags": [
+          "View Xpath"
+        ],
+        "operationId": "GetXpathById",
+        "parameters": [
+          {
+            "name": "mdt-datastore-datastore",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-transport",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "mdt-transport-per-node-index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Mdt-Capabilities-OperMdt-Capabilities-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-capabilities-oper-data": {
+            "type": "object",
+            "properties": {
+              "mdt-system": {
+                "properties": {
+                  "sub-caps": {
+                    "type": "object",
+                    "properties": {
+                      "periodic-is-valid": {
+                        "type": "string"
+                      },
+                      "on-change-is-valid": {
+                        "type": "string"
+                      },
+                      "periodic-supported": {
+                        "type": "string"
+                      },
+                      "on-change-supported": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "mdt-datastore": {
+                    "type": "object",
+                    "properties": {
+                      "datastore": {
+                        "type": "string"
+                      },
+                      "mdt-per-node": {
+                        "type": "object",
+                        "properties": {
+                          "index": {
+                            "type": "integer",
+                            "format": "uint16"
+                          },
+                          "sub-caps": {
+                            "type": "object",
+                            "properties": {
+                              "periodic-is-valid": {
+                                "type": "string"
+                              },
+                              "on-change-is-valid": {
+                                "type": "string"
+                              },
+                              "periodic-supported": {
+                                "type": "string"
+                              },
+                              "on-change-supported": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "filter-type-choice": {
+                            "type": "object",
+                            "properties": {
+                              "xpath": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "mdt-transport": {
+                        "type": "object",
+                        "properties": {
+                          "transport": {
+                            "type": "string"
+                          },
+                          "mdt-transport-per-node": {
+                            "type": "object",
+                            "properties": {
+                              "index": {
+                                "type": "integer",
+                                "format": "uint16"
+                              },
+                              "sub-caps": {
+                                "type": "object",
+                                "properties": {
+                                  "periodic-is-valid": {
+                                    "type": "string"
+                                  },
+                                  "on-change-is-valid": {
+                                    "type": "string"
+                                  },
+                                  "periodic-supported": {
+                                    "type": "string"
+                                  },
+                                  "on-change-supported": {
+                                    "type": "string"
+                                  }
+                                }
+                              },
+                              "filter-type-choice": {
+                                "type": "object",
+                                "properties": {
+                                  "xpath": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Mdt-Capabilities-OperMdt-Capabilities-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-capabilities-oper-data": {
+            "type": "object",
+            "properties": {
+              "mdt-system": {
+                "properties": {
+                  "sub-caps": {
+                    "type": "object",
+                    "properties": {
+                      "periodic-is-valid": {
+                        "type": "string"
+                      },
+                      "on-change-is-valid": {
+                        "type": "string"
+                      },
+                      "periodic-supported": {
+                        "type": "string"
+                      },
+                      "on-change-supported": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "mdt-datastore": {
+                    "type": "object",
+                    "properties": {
+                      "datastore": {
+                        "type": "string"
+                      },
+                      "mdt-per-node": {
+                        "type": "object",
+                        "properties": {
+                          "index": {
+                            "type": "integer",
+                            "format": "uint16"
+                          },
+                          "sub-caps": {
+                            "type": "object",
+                            "properties": {
+                              "periodic-is-valid": {
+                                "type": "string"
+                              },
+                              "on-change-is-valid": {
+                                "type": "string"
+                              },
+                              "periodic-supported": {
+                                "type": "string"
+                              },
+                              "on-change-supported": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "filter-type-choice": {
+                            "type": "object",
+                            "properties": {
+                              "xpath": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "mdt-transport": {
+                        "type": "object",
+                        "properties": {
+                          "transport": {
+                            "type": "string"
+                          },
+                          "mdt-transport-per-node": {
+                            "type": "object",
+                            "properties": {
+                              "index": {
+                                "type": "integer",
+                                "format": "uint16"
+                              },
+                              "sub-caps": {
+                                "type": "object",
+                                "properties": {
+                                  "periodic-is-valid": {
+                                    "type": "string"
+                                  },
+                                  "on-change-is-valid": {
+                                    "type": "string"
+                                  },
+                                  "periodic-supported": {
+                                    "type": "string"
+                                  },
+                                  "on-change-supported": {
+                                    "type": "string"
+                                  }
+                                }
+                              },
+                              "filter-type-choice": {
+                                "type": "object",
+                                "properties": {
+                                  "xpath": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-capabilities-oper-data"
+        }
+      },
+      "Mdt-Capabilities-Oper-DataMdt-SystemSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-system": {
+            "type": "object",
+            "properties": {
+              "sub-caps": {
+                "type": "object",
+                "properties": {
+                  "periodic-is-valid": {
+                    "type": "string"
+                  },
+                  "on-change-is-valid": {
+                    "type": "string"
+                  },
+                  "periodic-supported": {
+                    "type": "string"
+                  },
+                  "on-change-supported": {
+                    "type": "string"
+                  }
+                }
+              },
+              "mdt-datastore": {
+                "type": "object",
+                "properties": {
+                  "datastore": {
+                    "type": "string"
+                  },
+                  "mdt-per-node": {
+                    "type": "object",
+                    "properties": {
+                      "index": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "sub-caps": {
+                        "type": "object",
+                        "properties": {
+                          "periodic-is-valid": {
+                            "type": "string"
+                          },
+                          "on-change-is-valid": {
+                            "type": "string"
+                          },
+                          "periodic-supported": {
+                            "type": "string"
+                          },
+                          "on-change-supported": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "filter-type-choice": {
+                        "type": "object",
+                        "properties": {
+                          "xpath": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "mdt-transport": {
+                    "type": "object",
+                    "properties": {
+                      "transport": {
+                        "type": "string"
+                      },
+                      "mdt-transport-per-node": {
+                        "type": "object",
+                        "properties": {
+                          "index": {
+                            "type": "integer",
+                            "format": "uint16"
+                          },
+                          "sub-caps": {
+                            "type": "object",
+                            "properties": {
+                              "periodic-is-valid": {
+                                "type": "string"
+                              },
+                              "on-change-is-valid": {
+                                "type": "string"
+                              },
+                              "periodic-supported": {
+                                "type": "string"
+                              },
+                              "on-change-supported": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "filter-type-choice": {
+                            "type": "object",
+                            "properties": {
+                              "xpath": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mdt-Capabilities-Oper-DataMdt-SystemSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-system": {
+            "type": "object",
+            "properties": {
+              "sub-caps": {
+                "type": "object",
+                "properties": {
+                  "periodic-is-valid": {
+                    "type": "string"
+                  },
+                  "on-change-is-valid": {
+                    "type": "string"
+                  },
+                  "periodic-supported": {
+                    "type": "string"
+                  },
+                  "on-change-supported": {
+                    "type": "string"
+                  }
+                }
+              },
+              "mdt-datastore": {
+                "type": "object",
+                "properties": {
+                  "datastore": {
+                    "type": "string"
+                  },
+                  "mdt-per-node": {
+                    "type": "object",
+                    "properties": {
+                      "index": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "sub-caps": {
+                        "type": "object",
+                        "properties": {
+                          "periodic-is-valid": {
+                            "type": "string"
+                          },
+                          "on-change-is-valid": {
+                            "type": "string"
+                          },
+                          "periodic-supported": {
+                            "type": "string"
+                          },
+                          "on-change-supported": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "filter-type-choice": {
+                        "type": "object",
+                        "properties": {
+                          "xpath": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "mdt-transport": {
+                    "type": "object",
+                    "properties": {
+                      "transport": {
+                        "type": "string"
+                      },
+                      "mdt-transport-per-node": {
+                        "type": "object",
+                        "properties": {
+                          "index": {
+                            "type": "integer",
+                            "format": "uint16"
+                          },
+                          "sub-caps": {
+                            "type": "object",
+                            "properties": {
+                              "periodic-is-valid": {
+                                "type": "string"
+                              },
+                              "on-change-is-valid": {
+                                "type": "string"
+                              },
+                              "periodic-supported": {
+                                "type": "string"
+                              },
+                              "on-change-supported": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "filter-type-choice": {
+                            "type": "object",
+                            "properties": {
+                              "xpath": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-system"
+        }
+      },
+      "Mdt-SystemSub-CapsSchemaById": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "Mdt-SystemSub-CapsSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sub-caps"
+        }
+      },
+      "Mdt-SystemMdt-DatastoreSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-datastore": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "datastore": {
+                  "type": "string"
+                },
+                "mdt-per-node": {
+                  "type": "object",
+                  "properties": {
+                    "index": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "sub-caps": {
+                      "type": "object",
+                      "properties": {
+                        "periodic-is-valid": {
+                          "type": "string"
+                        },
+                        "on-change-is-valid": {
+                          "type": "string"
+                        },
+                        "periodic-supported": {
+                          "type": "string"
+                        },
+                        "on-change-supported": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "filter-type-choice": {
+                      "type": "object",
+                      "properties": {
+                        "xpath": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mdt-transport": {
+                  "type": "object",
+                  "properties": {
+                    "transport": {
+                      "type": "string"
+                    },
+                    "mdt-transport-per-node": {
+                      "type": "object",
+                      "properties": {
+                        "index": {
+                          "type": "integer",
+                          "format": "uint16"
+                        },
+                        "sub-caps": {
+                          "type": "object",
+                          "properties": {
+                            "periodic-is-valid": {
+                              "type": "string"
+                            },
+                            "on-change-is-valid": {
+                              "type": "string"
+                            },
+                            "periodic-supported": {
+                              "type": "string"
+                            },
+                            "on-change-supported": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "filter-type-choice": {
+                          "type": "object",
+                          "properties": {
+                            "xpath": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mdt-SystemMdt-DatastoreSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-datastore": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "datastore": {
+                  "type": "string"
+                },
+                "mdt-per-node": {
+                  "type": "object",
+                  "properties": {
+                    "index": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "sub-caps": {
+                      "type": "object",
+                      "properties": {
+                        "periodic-is-valid": {
+                          "type": "string"
+                        },
+                        "on-change-is-valid": {
+                          "type": "string"
+                        },
+                        "periodic-supported": {
+                          "type": "string"
+                        },
+                        "on-change-supported": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "filter-type-choice": {
+                      "type": "object",
+                      "properties": {
+                        "xpath": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mdt-transport": {
+                  "type": "object",
+                  "properties": {
+                    "transport": {
+                      "type": "string"
+                    },
+                    "mdt-transport-per-node": {
+                      "type": "object",
+                      "properties": {
+                        "index": {
+                          "type": "integer",
+                          "format": "uint16"
+                        },
+                        "sub-caps": {
+                          "type": "object",
+                          "properties": {
+                            "periodic-is-valid": {
+                              "type": "string"
+                            },
+                            "on-change-is-valid": {
+                              "type": "string"
+                            },
+                            "periodic-supported": {
+                              "type": "string"
+                            },
+                            "on-change-supported": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "filter-type-choice": {
+                          "type": "object",
+                          "properties": {
+                            "xpath": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-datastore"
+        }
+      },
+      "Mdt-DatastoreMdt-Per-NodeSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-per-node": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sub-caps": {
+                  "type": "object",
+                  "properties": {
+                    "periodic-is-valid": {
+                      "type": "string"
+                    },
+                    "on-change-is-valid": {
+                      "type": "string"
+                    },
+                    "periodic-supported": {
+                      "type": "string"
+                    },
+                    "on-change-supported": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "filter-type-choice": {
+                  "type": "object",
+                  "properties": {
+                    "xpath": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mdt-DatastoreMdt-Per-NodeSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-per-node": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sub-caps": {
+                  "type": "object",
+                  "properties": {
+                    "periodic-is-valid": {
+                      "type": "string"
+                    },
+                    "on-change-is-valid": {
+                      "type": "string"
+                    },
+                    "periodic-supported": {
+                      "type": "string"
+                    },
+                    "on-change-supported": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "filter-type-choice": {
+                  "type": "object",
+                  "properties": {
+                    "xpath": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-per-node"
+        }
+      },
+      "Mdt-Per-NodeSub-CapsSchemaById": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "Mdt-Per-NodeSub-CapsSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sub-caps"
+        }
+      },
+      "Mdt-DatastoreMdt-TransportSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-transport": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "transport": {
+                  "type": "string",
+                  "properties": {
+                    "path-mtu-discovery": {
+                      "type": "boolean"
+                    },
+                    "local-port": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "local-host": {
+                      "type": "string"
+                    },
+                    "foreign-port": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "foreign-host": {
+                      "type": "string"
+                    },
+                    "mss": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "ao-keychain-name": {
+                      "type": "string"
+                    },
+                    "ao-key-id": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "ao-incl-tcp-opts": {
+                      "type": "boolean"
+                    },
+                    "ao-accept-mismatch-conn": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "mdt-transport-per-node": {
+                  "type": "object",
+                  "properties": {
+                    "index": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "sub-caps": {
+                      "type": "object",
+                      "properties": {
+                        "periodic-is-valid": {
+                          "type": "string"
+                        },
+                        "on-change-is-valid": {
+                          "type": "string"
+                        },
+                        "periodic-supported": {
+                          "type": "string"
+                        },
+                        "on-change-supported": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "filter-type-choice": {
+                      "type": "object",
+                      "properties": {
+                        "xpath": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mdt-DatastoreMdt-TransportSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-transport": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "transport": {
+                  "type": "string",
+                  "properties": {
+                    "path-mtu-discovery": {
+                      "type": "boolean"
+                    },
+                    "local-port": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "local-host": {
+                      "type": "string"
+                    },
+                    "foreign-port": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "foreign-host": {
+                      "type": "string"
+                    },
+                    "mss": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "ao-keychain-name": {
+                      "type": "string"
+                    },
+                    "ao-key-id": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "ao-incl-tcp-opts": {
+                      "type": "boolean"
+                    },
+                    "ao-accept-mismatch-conn": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "mdt-transport-per-node": {
+                  "type": "object",
+                  "properties": {
+                    "index": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "sub-caps": {
+                      "type": "object",
+                      "properties": {
+                        "periodic-is-valid": {
+                          "type": "string"
+                        },
+                        "on-change-is-valid": {
+                          "type": "string"
+                        },
+                        "periodic-supported": {
+                          "type": "string"
+                        },
+                        "on-change-supported": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "filter-type-choice": {
+                      "type": "object",
+                      "properties": {
+                        "xpath": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-transport"
+        }
+      },
+      "Mdt-TransportMdt-Transport-Per-NodeSchemaById": {
+        "type": "object",
+        "properties": {
+          "mdt-transport-per-node": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sub-caps": {
+                  "type": "object",
+                  "properties": {
+                    "periodic-is-valid": {
+                      "type": "string"
+                    },
+                    "on-change-is-valid": {
+                      "type": "string"
+                    },
+                    "periodic-supported": {
+                      "type": "string"
+                    },
+                    "on-change-supported": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "filter-type-choice": {
+                  "type": "object",
+                  "properties": {
+                    "xpath": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mdt-TransportMdt-Transport-Per-NodeSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "mdt-transport-per-node": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sub-caps": {
+                  "type": "object",
+                  "properties": {
+                    "periodic-is-valid": {
+                      "type": "string"
+                    },
+                    "on-change-is-valid": {
+                      "type": "string"
+                    },
+                    "periodic-supported": {
+                      "type": "string"
+                    },
+                    "on-change-supported": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "filter-type-choice": {
+                  "type": "object",
+                  "properties": {
+                    "xpath": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "mdt-transport-per-node"
+        }
+      },
+      "Mdt-Transport-Per-NodeSub-CapsSchemaById": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "Mdt-Transport-Per-NodeSub-CapsSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sub-caps": {
+            "type": "object",
+            "properties": {
+              "periodic-is-valid": {
+                "type": "string"
+              },
+              "on-change-is-valid": {
+                "type": "string"
+              },
+              "on-change-supported": {
+                "type": "string"
+              },
+              "periodic-supported": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sub-caps"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

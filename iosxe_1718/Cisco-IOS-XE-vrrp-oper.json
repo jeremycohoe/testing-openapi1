@@ -1,0 +1,4218 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data": {
+      "get": {
+        "summary": "GET operation on \"vrrp-oper-data\"",
+        "description": "This endpoint retrieves the device's \"vrrp-oper-data\" resource at XPath: vrrp-oper-data.",
+        "tags": [
+          "View Vrrp-Oper-Data"
+        ],
+        "operationId": "GetVrrp-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state": {
+      "get": {
+        "summary": "GET operation on \"vrrp-oper-state\"",
+        "description": "This endpoint retrieves the device's \"vrrp-oper-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state.",
+        "tags": [
+          "View Vrrp-Oper-State"
+        ],
+        "operationId": "GetVrrp-Oper-StateById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}": {
+      "get": {
+        "summary": "GET operation on \"vrrp-oper-state\"",
+        "description": "This endpoint retrieves the device's \"vrrp-oper-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state.",
+        "tags": [
+          "View Vrrp-Oper-State"
+        ],
+        "operationId": "GetVrrp-Oper-StateElemById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state/if-number": {},
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state/group-id": {},
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state/addr-type": {},
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/version": {
+      "get": {
+        "summary": "GET operation on \"version\"",
+        "description": "This endpoint retrieves the device's \"version\" resource at XPath: vrrp-oper-data/vrrp-oper-state/version.",
+        "tags": [
+          "View Version"
+        ],
+        "operationId": "GetVersionById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/virtual-ip": {
+      "get": {
+        "summary": "GET operation on \"virtual-ip\"",
+        "description": "This endpoint retrieves the device's \"virtual-ip\" resource at XPath: vrrp-oper-data/vrrp-oper-state/virtual-ip.",
+        "tags": [
+          "View Virtual-Ip"
+        ],
+        "operationId": "GetVirtual-IpById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/if-name": {
+      "get": {
+        "summary": "GET operation on \"if-name\"",
+        "description": "This endpoint retrieves the device's \"if-name\" resource at XPath: vrrp-oper-data/vrrp-oper-state/if-name.",
+        "tags": [
+          "View If-Name"
+        ],
+        "operationId": "GetIf-NameById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/vrrp-state": {
+      "get": {
+        "summary": "GET operation on \"vrrp-state\"",
+        "description": "This endpoint retrieves the device's \"vrrp-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state/vrrp-state.",
+        "tags": [
+          "View Vrrp-State"
+        ],
+        "operationId": "GetVrrp-StateById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/virtual-mac": {
+      "get": {
+        "summary": "GET operation on \"virtual-mac\"",
+        "description": "This endpoint retrieves the device's \"virtual-mac\" resource at XPath: vrrp-oper-data/vrrp-oper-state/virtual-mac.",
+        "tags": [
+          "View Virtual-Mac"
+        ],
+        "operationId": "GetVirtual-MacById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/master-ip": {
+      "get": {
+        "summary": "GET operation on \"master-ip\"",
+        "description": "This endpoint retrieves the device's \"master-ip\" resource at XPath: vrrp-oper-data/vrrp-oper-state/master-ip.",
+        "tags": [
+          "View Master-Ip"
+        ],
+        "operationId": "GetMaster-IpById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/is-owner": {
+      "get": {
+        "summary": "GET operation on \"is-owner\"",
+        "description": "This endpoint retrieves the device's \"is-owner\" resource at XPath: vrrp-oper-data/vrrp-oper-state/is-owner.",
+        "tags": [
+          "View Is-Owner"
+        ],
+        "operationId": "GetIs-OwnerById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/priority": {
+      "get": {
+        "summary": "GET operation on \"priority\"",
+        "description": "This endpoint retrieves the device's \"priority\" resource at XPath: vrrp-oper-data/vrrp-oper-state/priority.",
+        "tags": [
+          "View Priority"
+        ],
+        "operationId": "GetPriorityById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/advertisement-timer": {
+      "get": {
+        "summary": "GET operation on \"advertisement-timer\"",
+        "description": "This endpoint retrieves the device's \"advertisement-timer\" resource at XPath: vrrp-oper-data/vrrp-oper-state/advertisement-timer.",
+        "tags": [
+          "View Advertisement-Timer"
+        ],
+        "operationId": "GetAdvertisement-TimerById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/master-down-timer": {
+      "get": {
+        "summary": "GET operation on \"master-down-timer\"",
+        "description": "This endpoint retrieves the device's \"master-down-timer\" resource at XPath: vrrp-oper-data/vrrp-oper-state/master-down-timer.",
+        "tags": [
+          "View Master-Down-Timer"
+        ],
+        "operationId": "GetMaster-Down-TimerById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/skew-time": {
+      "get": {
+        "summary": "GET operation on \"skew-time\"",
+        "description": "This endpoint retrieves the device's \"skew-time\" resource at XPath: vrrp-oper-data/vrrp-oper-state/skew-time.",
+        "tags": [
+          "View Skew-Time"
+        ],
+        "operationId": "GetSkew-TimeById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/preempt": {
+      "get": {
+        "summary": "GET operation on \"preempt\"",
+        "description": "This endpoint retrieves the device's \"preempt\" resource at XPath: vrrp-oper-data/vrrp-oper-state/preempt.",
+        "tags": [
+          "View Preempt"
+        ],
+        "operationId": "GetPreemptById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/master-transitions": {
+      "get": {
+        "summary": "GET operation on \"master-transitions\"",
+        "description": "This endpoint retrieves the device's \"master-transitions\" resource at XPath: vrrp-oper-data/vrrp-oper-state/master-transitions.",
+        "tags": [
+          "View Master-Transitions"
+        ],
+        "operationId": "GetMaster-TransitionsById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/new-master-reason": {
+      "get": {
+        "summary": "GET operation on \"new-master-reason\"",
+        "description": "This endpoint retrieves the device's \"new-master-reason\" resource at XPath: vrrp-oper-data/vrrp-oper-state/new-master-reason.",
+        "tags": [
+          "View New-Master-Reason"
+        ],
+        "operationId": "GetNew-Master-ReasonById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/last-state-change-time": {
+      "get": {
+        "summary": "GET operation on \"last-state-change-time\"",
+        "description": "This endpoint retrieves the device's \"last-state-change-time\" resource at XPath: vrrp-oper-data/vrrp-oper-state/last-state-change-time.",
+        "tags": [
+          "View Last-State-Change-Time"
+        ],
+        "operationId": "GetLast-State-Change-TimeById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/adv-interval-errors": {
+      "get": {
+        "summary": "GET operation on \"adv-interval-errors\"",
+        "description": "This endpoint retrieves the device's \"adv-interval-errors\" resource at XPath: vrrp-oper-data/vrrp-oper-state/adv-interval-errors.",
+        "tags": [
+          "View Adv-Interval-Errors"
+        ],
+        "operationId": "GetAdv-Interval-ErrorsById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/ip-ttl-errors": {
+      "get": {
+        "summary": "GET operation on \"ip-ttl-errors\"",
+        "description": "This endpoint retrieves the device's \"ip-ttl-errors\" resource at XPath: vrrp-oper-data/vrrp-oper-state/ip-ttl-errors.",
+        "tags": [
+          "View Ip-Ttl-Errors"
+        ],
+        "operationId": "GetIp-Ttl-ErrorsById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/rcvd-pri-zero-pak": {
+      "get": {
+        "summary": "GET operation on \"rcvd-pri-zero-pak\"",
+        "description": "This endpoint retrieves the device's \"rcvd-pri-zero-pak\" resource at XPath: vrrp-oper-data/vrrp-oper-state/rcvd-pri-zero-pak.",
+        "tags": [
+          "View Rcvd-Pri-Zero-Pak"
+        ],
+        "operationId": "GetRcvd-Pri-Zero-PakById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/sent-pri-zero-pak": {
+      "get": {
+        "summary": "GET operation on \"sent-pri-zero-pak\"",
+        "description": "This endpoint retrieves the device's \"sent-pri-zero-pak\" resource at XPath: vrrp-oper-data/vrrp-oper-state/sent-pri-zero-pak.",
+        "tags": [
+          "View Sent-Pri-Zero-Pak"
+        ],
+        "operationId": "GetSent-Pri-Zero-PakById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/rcvd-invalid-type-pak": {
+      "get": {
+        "summary": "GET operation on \"rcvd-invalid-type-pak\"",
+        "description": "This endpoint retrieves the device's \"rcvd-invalid-type-pak\" resource at XPath: vrrp-oper-data/vrrp-oper-state/rcvd-invalid-type-pak.",
+        "tags": [
+          "View Rcvd-Invalid-Type-Pak"
+        ],
+        "operationId": "GetRcvd-Invalid-Type-PakById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/addr-list-errors": {
+      "get": {
+        "summary": "GET operation on \"addr-list-errors\"",
+        "description": "This endpoint retrieves the device's \"addr-list-errors\" resource at XPath: vrrp-oper-data/vrrp-oper-state/addr-list-errors.",
+        "tags": [
+          "View Addr-List-Errors"
+        ],
+        "operationId": "GetAddr-List-ErrorsById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/pak-len-errors": {
+      "get": {
+        "summary": "GET operation on \"pak-len-errors\"",
+        "description": "This endpoint retrieves the device's \"pak-len-errors\" resource at XPath: vrrp-oper-data/vrrp-oper-state/pak-len-errors.",
+        "tags": [
+          "View Pak-Len-Errors"
+        ],
+        "operationId": "GetPak-Len-ErrorsById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/discontinuity-time": {
+      "get": {
+        "summary": "GET operation on \"discontinuity-time\"",
+        "description": "This endpoint retrieves the device's \"discontinuity-time\" resource at XPath: vrrp-oper-data/vrrp-oper-state/discontinuity-time.",
+        "tags": [
+          "View Discontinuity-Time"
+        ],
+        "operationId": "GetDiscontinuity-TimeById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/advertisement-sent": {
+      "get": {
+        "summary": "GET operation on \"advertisement-sent\"",
+        "description": "This endpoint retrieves the device's \"advertisement-sent\" resource at XPath: vrrp-oper-data/vrrp-oper-state/advertisement-sent.",
+        "tags": [
+          "View Advertisement-Sent"
+        ],
+        "operationId": "GetAdvertisement-SentById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/advertisement-rcvd": {
+      "get": {
+        "summary": "GET operation on \"advertisement-rcvd\"",
+        "description": "This endpoint retrieves the device's \"advertisement-rcvd\" resource at XPath: vrrp-oper-data/vrrp-oper-state/advertisement-rcvd.",
+        "tags": [
+          "View Advertisement-Rcvd"
+        ],
+        "operationId": "GetAdvertisement-RcvdById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/track-list": {
+      "get": {
+        "summary": "GET operation on \"track-list\"",
+        "description": "This endpoint retrieves the device's \"track-list\" resource at XPath: vrrp-oper-data/vrrp-oper-state/track-list.",
+        "tags": [
+          "View Track-List"
+        ],
+        "operationId": "GetTrack-ListElemById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/track-list/track-name": {
+      "get": {
+        "summary": "GET operation on \"track-name\"",
+        "description": "This endpoint retrieves the device's \"track-name\" resource at XPath: vrrp-oper-data/vrrp-oper-state/track-list/track-name.",
+        "tags": [
+          "View Track-Name"
+        ],
+        "operationId": "GetTrack-NameById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/track-list/track-obj-state": {
+      "get": {
+        "summary": "GET operation on \"track-obj-state\"",
+        "description": "This endpoint retrieves the device's \"track-obj-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state/track-list/track-obj-state.",
+        "tags": [
+          "View Track-Obj-State"
+        ],
+        "operationId": "GetTrack-Obj-StateById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/omp-state": {
+      "get": {
+        "summary": "GET operation on \"omp-state\"",
+        "description": "This endpoint retrieves the device's \"omp-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state/omp-state.",
+        "tags": [
+          "View Omp-State"
+        ],
+        "operationId": "GetOmp-StateById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/secondary-vip-addresses": {},
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/bfd-enabled": {
+      "get": {
+        "summary": "GET operation on \"bfd-enabled\"",
+        "description": "This endpoint retrieves the device's \"bfd-enabled\" resource at XPath: vrrp-oper-data/vrrp-oper-state/bfd-enabled.",
+        "tags": [
+          "View Bfd-Enabled"
+        ],
+        "operationId": "GetBfd-EnabledById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/bfd-state": {
+      "get": {
+        "summary": "GET operation on \"bfd-state\"",
+        "description": "This endpoint retrieves the device's \"bfd-state\" resource at XPath: vrrp-oper-data/vrrp-oper-state/bfd-state.",
+        "tags": [
+          "View Bfd-State"
+        ],
+        "operationId": "GetBfd-StateById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-vrrp-oper:vrrp-oper-data/vrrp-oper-state={vrrp-oper-state-if-number},{vrrp-oper-state-group-id},{vrrp-oper-state-addr-type}/state-change-reason": {
+      "get": {
+        "summary": "GET operation on \"state-change-reason\"",
+        "description": "This endpoint retrieves the device's \"state-change-reason\" resource at XPath: vrrp-oper-data/vrrp-oper-state/state-change-reason.",
+        "tags": [
+          "View State-Change-Reason"
+        ],
+        "operationId": "GetState-Change-ReasonById",
+        "parameters": [
+          {
+            "name": "vrrp-oper-state-if-number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint32"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "vrrp-oper-state-addr-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Vrrp-OperVrrp-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "vrrp-oper-data": {
+            "type": "object",
+            "properties": {
+              "vrrp-oper-state": {
+                "type": "object",
+                "properties": {
+                  "if-number": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "group-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "addr-type": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  },
+                  "virtual-ip": {
+                    "type": "string"
+                  },
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "vrrp-state": {
+                    "type": "string"
+                  },
+                  "virtual-mac": {
+                    "type": "string"
+                  },
+                  "master-ip": {
+                    "type": "string"
+                  },
+                  "is-owner": {
+                    "type": "boolean"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "advertisement-timer": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "master-down-timer": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "skew-time": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "preempt": {
+                    "type": "boolean"
+                  },
+                  "master-transitions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "new-master-reason": {
+                    "type": "string"
+                  },
+                  "last-state-change-time": {
+                    "type": "string"
+                  },
+                  "adv-interval-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "ip-ttl-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "rcvd-pri-zero-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sent-pri-zero-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "rcvd-invalid-type-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "addr-list-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "pak-len-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "discontinuity-time": {
+                    "type": "string"
+                  },
+                  "advertisement-sent": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "advertisement-rcvd": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "track-list": {
+                    "type": "object",
+                    "properties": {
+                      "track-name": {
+                        "type": "string"
+                      },
+                      "track-obj-state": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "omp-state": {
+                    "type": "string"
+                  },
+                  "secondary-vip-addresses": {
+                    "type": "string"
+                  },
+                  "bfd-enabled": {
+                    "type": "boolean"
+                  },
+                  "bfd-state": {
+                    "type": "string"
+                  },
+                  "state-change-reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Vrrp-OperVrrp-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "vrrp-oper-data": {
+            "type": "object",
+            "properties": {
+              "vrrp-oper-state": {
+                "type": "object",
+                "properties": {
+                  "if-number": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "group-id": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "addr-type": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  },
+                  "virtual-ip": {
+                    "type": "string"
+                  },
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "vrrp-state": {
+                    "type": "string"
+                  },
+                  "virtual-mac": {
+                    "type": "string"
+                  },
+                  "master-ip": {
+                    "type": "string"
+                  },
+                  "is-owner": {
+                    "type": "boolean"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "advertisement-timer": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "master-down-timer": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "skew-time": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "preempt": {
+                    "type": "boolean"
+                  },
+                  "master-transitions": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "new-master-reason": {
+                    "type": "string"
+                  },
+                  "last-state-change-time": {
+                    "type": "string"
+                  },
+                  "adv-interval-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "ip-ttl-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "rcvd-pri-zero-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sent-pri-zero-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "rcvd-invalid-type-pak": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "addr-list-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "pak-len-errors": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "discontinuity-time": {
+                    "type": "string"
+                  },
+                  "advertisement-sent": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "advertisement-rcvd": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "track-list": {
+                    "type": "object",
+                    "properties": {
+                      "track-name": {
+                        "type": "string"
+                      },
+                      "track-obj-state": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "omp-state": {
+                    "type": "string"
+                  },
+                  "secondary-vip-addresses": {
+                    "type": "string"
+                  },
+                  "bfd-enabled": {
+                    "type": "boolean"
+                  },
+                  "bfd-state": {
+                    "type": "string"
+                  },
+                  "state-change-reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "vrrp-oper-data"
+        }
+      },
+      "Vrrp-Oper-DataVrrp-Oper-StateSchemaById": {
+        "type": "object",
+        "properties": {
+          "vrrp-oper-state": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "group-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "priority": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "version": {
+                  "type": "string",
+                  "format": "uint8"
+                },
+                "discontinuity-time": {
+                  "type": "string"
+                },
+                "if-number": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "addr-type": {
+                  "type": "string"
+                },
+                "virtual-ip": {
+                  "type": "string"
+                },
+                "vrrp-state": {
+                  "type": "string"
+                },
+                "virtual-mac": {
+                  "type": "string"
+                },
+                "master-ip": {
+                  "type": "string"
+                },
+                "is-owner": {
+                  "type": "boolean"
+                },
+                "advertisement-timer": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "master-down-timer": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "skew-time": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "preempt": {
+                  "type": "boolean"
+                },
+                "master-transitions": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "new-master-reason": {
+                  "type": "string"
+                },
+                "last-state-change-time": {
+                  "type": "string"
+                },
+                "adv-interval-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "ip-ttl-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "rcvd-pri-zero-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sent-pri-zero-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "rcvd-invalid-type-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "addr-list-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "pak-len-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "advertisement-sent": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "advertisement-rcvd": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "track-list": {
+                  "type": "object",
+                  "properties": {
+                    "track-name": {
+                      "type": "string"
+                    },
+                    "track-obj-state": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "omp-state": {
+                  "type": "string"
+                },
+                "secondary-vip-addresses": {
+                  "type": "string"
+                },
+                "bfd-enabled": {
+                  "type": "boolean"
+                },
+                "bfd-state": {
+                  "type": "string"
+                },
+                "state-change-reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Vrrp-Oper-DataVrrp-Oper-StateSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "vrrp-oper-state": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "group-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "priority": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "version": {
+                  "type": "string",
+                  "format": "uint8"
+                },
+                "discontinuity-time": {
+                  "type": "string"
+                },
+                "if-number": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "addr-type": {
+                  "type": "string"
+                },
+                "virtual-ip": {
+                  "type": "string"
+                },
+                "vrrp-state": {
+                  "type": "string"
+                },
+                "virtual-mac": {
+                  "type": "string"
+                },
+                "master-ip": {
+                  "type": "string"
+                },
+                "is-owner": {
+                  "type": "boolean"
+                },
+                "advertisement-timer": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "master-down-timer": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "skew-time": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "preempt": {
+                  "type": "boolean"
+                },
+                "master-transitions": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "new-master-reason": {
+                  "type": "string"
+                },
+                "last-state-change-time": {
+                  "type": "string"
+                },
+                "adv-interval-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "ip-ttl-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "rcvd-pri-zero-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sent-pri-zero-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "rcvd-invalid-type-pak": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "addr-list-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "pak-len-errors": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "advertisement-sent": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "advertisement-rcvd": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "track-list": {
+                  "type": "object",
+                  "properties": {
+                    "track-name": {
+                      "type": "string"
+                    },
+                    "track-obj-state": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "omp-state": {
+                  "type": "string"
+                },
+                "secondary-vip-addresses": {
+                  "type": "string"
+                },
+                "bfd-enabled": {
+                  "type": "boolean"
+                },
+                "bfd-state": {
+                  "type": "string"
+                },
+                "state-change-reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "vrrp-oper-state"
+        }
+      },
+      "Vrrp-Oper-StateTrack-ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "track-list": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "track-name": {
+                  "type": "string"
+                },
+                "track-obj-state": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Vrrp-Oper-StateTrack-ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "track-list": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "track-name": {
+                  "type": "string"
+                },
+                "track-obj-state": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "track-list"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

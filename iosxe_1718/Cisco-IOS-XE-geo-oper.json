@@ -1,0 +1,517 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-geo-oper:geo-oper-data": {
+      "get": {
+        "summary": "GET operation on \"geo-oper-data\"",
+        "description": "This endpoint retrieves the device's \"geo-oper-data\" resource at XPath: geo-oper-data.",
+        "tags": [
+          "View Geo-Oper-Data"
+        ],
+        "operationId": "GetGeo-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-geo-oper:geo-oper-data/geo-db-status": {
+      "get": {
+        "summary": "GET operation on \"geo-db-status\"",
+        "description": "This endpoint retrieves the device's \"geo-db-status\" resource at XPath: geo-oper-data/geo-db-status.",
+        "tags": [
+          "View Geo-Db-Status"
+        ],
+        "operationId": "GetGeo-Db-StatusById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-geo-oper:geo-oper-data/geo-db-status/geo-enabled": {
+      "get": {
+        "summary": "GET operation on \"geo-enabled\"",
+        "description": "This endpoint retrieves the device's \"geo-enabled\" resource at XPath: geo-oper-data/geo-db-status/geo-enabled.",
+        "tags": [
+          "View Geo-Enabled"
+        ],
+        "operationId": "GetGeo-EnabledById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-geo-oper:geo-oper-data/geo-db-status/db-file-name": {
+      "get": {
+        "summary": "GET operation on \"db-file-name\"",
+        "description": "This endpoint retrieves the device's \"db-file-name\" resource at XPath: geo-oper-data/geo-db-status/db-file-name.",
+        "tags": [
+          "View Db-File-Name"
+        ],
+        "operationId": "GetDb-File-NameById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-geo-oper:geo-oper-data/geo-db-status/db-version": {
+      "get": {
+        "summary": "GET operation on \"db-version\"",
+        "description": "This endpoint retrieves the device's \"db-version\" resource at XPath: geo-oper-data/geo-db-status/db-version.",
+        "tags": [
+          "View Db-Version"
+        ],
+        "operationId": "GetDb-VersionById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Geo-OperGeo-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "geo-oper-data": {
+            "type": "object",
+            "properties": {
+              "geo-db-status": {
+                "type": "object",
+                "properties": {
+                  "geo-enabled": {
+                    "type": "boolean"
+                  },
+                  "db-file-name": {
+                    "type": "string"
+                  },
+                  "db-version": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Geo-OperGeo-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "geo-oper-data": {
+            "type": "object",
+            "properties": {
+              "geo-db-status": {
+                "type": "object",
+                "properties": {
+                  "geo-enabled": {
+                    "type": "boolean"
+                  },
+                  "db-file-name": {
+                    "type": "string"
+                  },
+                  "db-version": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "geo-oper-data"
+        }
+      },
+      "Geo-Oper-DataGeo-Db-StatusSchemaById": {
+        "type": "object",
+        "properties": {
+          "geo-db-status": {
+            "type": "object",
+            "properties": {
+              "db-file-name": {
+                "type": "string"
+              },
+              "db-version": {
+                "type": "string"
+              },
+              "geo-enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "Geo-Oper-DataGeo-Db-StatusSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "geo-db-status": {
+            "type": "object",
+            "properties": {
+              "db-file-name": {
+                "type": "string"
+              },
+              "db-version": {
+                "type": "string"
+              },
+              "geo-enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "geo-db-status"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

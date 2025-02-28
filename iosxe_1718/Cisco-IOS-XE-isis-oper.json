@@ -1,0 +1,1527 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data": {
+      "get": {
+        "summary": "GET operation on \"isis-oper-data\"",
+        "description": "This endpoint retrieves the device's \"isis-oper-data\" resource at XPath: isis-oper-data.",
+        "tags": [
+          "View Isis-Oper-Data"
+        ],
+        "operationId": "GetIsis-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance": {
+      "get": {
+        "summary": "GET operation on \"isis-instance\"",
+        "description": "This endpoint retrieves the device's \"isis-instance\" resource at XPath: isis-oper-data/isis-instance.",
+        "tags": [
+          "View Isis-Instance"
+        ],
+        "operationId": "GetIsis-InstanceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}": {
+      "get": {
+        "summary": "GET operation on \"isis-instance\"",
+        "description": "This endpoint retrieves the device's \"isis-instance\" resource at XPath: isis-oper-data/isis-instance.",
+        "tags": [
+          "View Isis-Instance"
+        ],
+        "operationId": "GetIsis-InstanceElemById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance/tag": {},
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor": {
+      "get": {
+        "summary": "GET operation on \"isis-neighbor\"",
+        "description": "This endpoint retrieves the device's \"isis-neighbor\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor.",
+        "tags": [
+          "View Isis-Neighbor"
+        ],
+        "operationId": "GetIsis-NeighborById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor={isis-neighbor-system-id},{isis-neighbor-level},{isis-neighbor-if-name}": {
+      "get": {
+        "summary": "GET operation on \"isis-neighbor\"",
+        "description": "This endpoint retrieves the device's \"isis-neighbor\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor.",
+        "tags": [
+          "View Isis-Neighbor"
+        ],
+        "operationId": "GetIsis-NeighborElemById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-system-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor={isis-neighbor-system-id},{isis-neighbor-level},{isis-neighbor-if-name}/ipv4-address": {
+      "get": {
+        "summary": "GET operation on \"ipv4-address\"",
+        "description": "This endpoint retrieves the device's \"ipv4-address\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor/ipv4-address.",
+        "tags": [
+          "View Ipv4-Address"
+        ],
+        "operationId": "GetIpv4-AddressById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-system-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor={isis-neighbor-system-id},{isis-neighbor-level},{isis-neighbor-if-name}/ipv6-address": {
+      "get": {
+        "summary": "GET operation on \"ipv6-address\"",
+        "description": "This endpoint retrieves the device's \"ipv6-address\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor/ipv6-address.",
+        "tags": [
+          "View Ipv6-Address"
+        ],
+        "operationId": "GetIpv6-AddressById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-system-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor={isis-neighbor-system-id},{isis-neighbor-level},{isis-neighbor-if-name}/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-system-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor={isis-neighbor-system-id},{isis-neighbor-level},{isis-neighbor-if-name}/holdtime": {
+      "get": {
+        "summary": "GET operation on \"holdtime\"",
+        "description": "This endpoint retrieves the device's \"holdtime\" resource at XPath: isis-oper-data/isis-instance/isis-neighbor/holdtime.",
+        "tags": [
+          "View Holdtime"
+        ],
+        "operationId": "GetHoldtimeById",
+        "parameters": [
+          {
+            "name": "isis-instance-tag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-system-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "isis-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor/system-id": {},
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor/level": {},
+    "/data/Cisco-IOS-XE-isis-oper:isis-oper-data/isis-instance={isis-instance-tag}/isis-neighbor/if-name": {}
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Isis-OperIsis-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "isis-oper-data": {
+            "type": "object",
+            "properties": {
+              "isis-instance": {
+                "type": "object",
+                "properties": {
+                  "tag": {
+                    "type": "string"
+                  },
+                  "isis-neighbor": {
+                    "type": "object",
+                    "properties": {
+                      "ipv4-address": {
+                        "type": "string"
+                      },
+                      "ipv6-address": {
+                        "type": "string"
+                      },
+                      "state": {
+                        "type": "string"
+                      },
+                      "holdtime": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "system-id": {
+                        "type": "string"
+                      },
+                      "level": {
+                        "type": "string"
+                      },
+                      "if-name": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Isis-OperIsis-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "isis-oper-data": {
+            "type": "object",
+            "properties": {
+              "isis-instance": {
+                "type": "object",
+                "properties": {
+                  "tag": {
+                    "type": "string"
+                  },
+                  "isis-neighbor": {
+                    "type": "object",
+                    "properties": {
+                      "ipv4-address": {
+                        "type": "string"
+                      },
+                      "ipv6-address": {
+                        "type": "string"
+                      },
+                      "state": {
+                        "type": "string"
+                      },
+                      "holdtime": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "system-id": {
+                        "type": "string"
+                      },
+                      "level": {
+                        "type": "string"
+                      },
+                      "if-name": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "isis-oper-data"
+        }
+      },
+      "Isis-Oper-DataIsis-InstanceSchemaById": {
+        "type": "object",
+        "properties": {
+          "isis-instance": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tag": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "isis-neighbor": {
+                  "type": "object",
+                  "properties": {
+                    "ipv4-address": {
+                      "type": "string"
+                    },
+                    "ipv6-address": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "system-id": {
+                      "type": "string"
+                    },
+                    "level": {
+                      "type": "string"
+                    },
+                    "if-name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Isis-Oper-DataIsis-InstanceSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "isis-instance": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tag": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "isis-neighbor": {
+                  "type": "object",
+                  "properties": {
+                    "ipv4-address": {
+                      "type": "string"
+                    },
+                    "ipv6-address": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "system-id": {
+                      "type": "string"
+                    },
+                    "level": {
+                      "type": "string"
+                    },
+                    "if-name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "isis-instance"
+        }
+      },
+      "Isis-InstanceIsis-NeighborSchemaById": {
+        "type": "object",
+        "properties": {
+          "isis-neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "level": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "ipv4-address": {
+                  "type": "string"
+                },
+                "ipv6-address": {
+                  "type": "string"
+                },
+                "holdtime": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "system-id": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Isis-InstanceIsis-NeighborSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "isis-neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "level": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "ipv4-address": {
+                  "type": "string"
+                },
+                "ipv6-address": {
+                  "type": "string"
+                },
+                "holdtime": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "system-id": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "isis-neighbor"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

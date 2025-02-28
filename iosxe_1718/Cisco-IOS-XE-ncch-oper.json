@@ -1,0 +1,1065 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper": {
+      "get": {
+        "summary": "GET operation on \"netconf-callhome-oper\"",
+        "description": "This endpoint retrieves the device's \"netconf-callhome-oper\" resource at XPath: netconf-callhome-oper.",
+        "tags": [
+          "View Netconf-Callhome-Oper"
+        ],
+        "operationId": "GetNetconf-Callhome-OperById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client": {
+      "get": {
+        "summary": "GET operation on \"ncch-client\"",
+        "description": "This endpoint retrieves the device's \"ncch-client\" resource at XPath: netconf-callhome-oper/ncch-client.",
+        "tags": [
+          "View Ncch-Client"
+        ],
+        "operationId": "GetNcch-ClientById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client={ncch-client-name}": {
+      "get": {
+        "summary": "GET operation on \"ncch-client\"",
+        "description": "This endpoint retrieves the device's \"ncch-client\" resource at XPath: netconf-callhome-oper/ncch-client.",
+        "tags": [
+          "View Ncch-Client"
+        ],
+        "operationId": "GetNcch-ClientElemById",
+        "parameters": [
+          {
+            "name": "ncch-client-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client/name": {},
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client={ncch-client-name}/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: netconf-callhome-oper/ncch-client/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [
+          {
+            "name": "ncch-client-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client={ncch-client-name}/connected-endpoint": {
+      "get": {
+        "summary": "GET operation on \"connected-endpoint\"",
+        "description": "This endpoint retrieves the device's \"connected-endpoint\" resource at XPath: netconf-callhome-oper/ncch-client/connected-endpoint.",
+        "tags": [
+          "View Connected-Endpoint"
+        ],
+        "operationId": "GetConnected-EndpointById",
+        "parameters": [
+          {
+            "name": "ncch-client-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-ncch-oper:netconf-callhome-oper/ncch-client={ncch-client-name}/connect-time": {
+      "get": {
+        "summary": "GET operation on \"connect-time\"",
+        "description": "This endpoint retrieves the device's \"connect-time\" resource at XPath: netconf-callhome-oper/ncch-client/connect-time.",
+        "tags": [
+          "View Connect-Time"
+        ],
+        "operationId": "GetConnect-TimeById",
+        "parameters": [
+          {
+            "name": "ncch-client-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Ncch-OperNetconf-Callhome-OperSchemaById": {
+        "type": "object",
+        "properties": {
+          "netconf-callhome-oper": {
+            "type": "object",
+            "properties": {
+              "ncch-client": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "connected-endpoint": {
+                    "type": "string"
+                  },
+                  "connect-time": {
+                    "type": "string"
+                  },
+                  "ncch-client-endpoints": {
+                    "properties": {
+                      "ncch-client-endpoint": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "transport-choice": {
+                            "type": "object",
+                            "properties": {
+                              "transport-unset": {
+                                "type": "boolean"
+                              },
+                              "ssh": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "reconnect-strategy": {
+                    "type": "object",
+                    "properties": {
+                      "start-with": {
+                        "type": "string"
+                      },
+                      "max-attempts": {
+                        "type": "integer",
+                        "format": "uint8"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Ncch-OperNetconf-Callhome-OperSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "netconf-callhome-oper": {
+            "type": "object",
+            "properties": {
+              "ncch-client": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "connected-endpoint": {
+                    "type": "string"
+                  },
+                  "connect-time": {
+                    "type": "string"
+                  },
+                  "ncch-client-endpoints": {
+                    "properties": {
+                      "ncch-client-endpoint": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "transport-choice": {
+                            "type": "object",
+                            "properties": {
+                              "transport-unset": {
+                                "type": "boolean"
+                              },
+                              "ssh": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "reconnect-strategy": {
+                    "type": "object",
+                    "properties": {
+                      "start-with": {
+                        "type": "string"
+                      },
+                      "max-attempts": {
+                        "type": "integer",
+                        "format": "uint8"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "netconf-callhome-oper"
+        }
+      },
+      "Netconf-Callhome-OperNcch-ClientSchemaById": {
+        "type": "object",
+        "properties": {
+          "ncch-client": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "name": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "connected-endpoint": {
+                  "type": "string"
+                },
+                "connect-time": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Netconf-Callhome-OperNcch-ClientSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "ncch-client": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "name": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "connected-endpoint": {
+                  "type": "string"
+                },
+                "connect-time": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "ncch-client"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

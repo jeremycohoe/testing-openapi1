@@ -1,0 +1,3633 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data": {
+      "get": {
+        "summary": "GET operation on \"crypto-pki-oper-data\"",
+        "description": "This endpoint retrieves the device's \"crypto-pki-oper-data\" resource at XPath: crypto-pki-oper-data.",
+        "tags": [
+          "View Crypto-Pki-Oper-Data"
+        ],
+        "operationId": "GetCrypto-Pki-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle": {
+      "get": {
+        "summary": "GET operation on \"crypto-pki-bundle\"",
+        "description": "This endpoint retrieves the device's \"crypto-pki-bundle\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle.",
+        "tags": [
+          "View Crypto-Pki-Bundle"
+        ],
+        "operationId": "GetCrypto-Pki-BundleById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}": {
+      "get": {
+        "summary": "GET operation on \"crypto-pki-bundle\"",
+        "description": "This endpoint retrieves the device's \"crypto-pki-bundle\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle.",
+        "tags": [
+          "View Crypto-Pki-Bundle"
+        ],
+        "operationId": "GetCrypto-Pki-BundleElemById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle/label": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/mode": {
+      "get": {
+        "summary": "GET operation on \"mode\"",
+        "description": "This endpoint retrieves the device's \"mode\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/mode.",
+        "tags": [
+          "View Mode"
+        ],
+        "operationId": "GetModeById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/tp-authenticated": {
+      "get": {
+        "summary": "GET operation on \"tp-authenticated\"",
+        "description": "This endpoint retrieves the device's \"tp-authenticated\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/tp-authenticated.",
+        "tags": [
+          "View Tp-Authenticated"
+        ],
+        "operationId": "GetTp-AuthenticatedById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/tp-keys-generated": {
+      "get": {
+        "summary": "GET operation on \"tp-keys-generated\"",
+        "description": "This endpoint retrieves the device's \"tp-keys-generated\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/tp-keys-generated.",
+        "tags": [
+          "View Tp-Keys-Generated"
+        ],
+        "operationId": "GetTp-Keys-GeneratedById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/tp-enrolled": {
+      "get": {
+        "summary": "GET operation on \"tp-enrolled\"",
+        "description": "This endpoint retrieves the device's \"tp-enrolled\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/tp-enrolled.",
+        "tags": [
+          "View Tp-Enrolled"
+        ],
+        "operationId": "GetTp-EnrolledById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/tp-scep-enrollment-in-progress": {
+      "get": {
+        "summary": "GET operation on \"tp-scep-enrollment-in-progress\"",
+        "description": "This endpoint retrieves the device's \"tp-scep-enrollment-in-progress\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/tp-scep-enrollment-in-progress.",
+        "tags": [
+          "View Tp-Scep-Enrollment-In-Progress"
+        ],
+        "operationId": "GetTp-Scep-Enrollment-In-ProgressById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/key-export": {
+      "get": {
+        "summary": "GET operation on \"key-export\"",
+        "description": "This endpoint retrieves the device's \"key-export\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/key-export.",
+        "tags": [
+          "View Key-Export"
+        ],
+        "operationId": "GetKey-ExportById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert": {
+      "get": {
+        "summary": "GET operation on \"cert\"",
+        "description": "This endpoint retrieves the device's \"cert\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert.",
+        "tags": [
+          "View Cert"
+        ],
+        "operationId": "GetCertElemById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/cert-avail": {
+      "get": {
+        "summary": "GET operation on \"cert-avail\"",
+        "description": "This endpoint retrieves the device's \"cert-avail\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/cert-avail.",
+        "tags": [
+          "View Cert-Avail"
+        ],
+        "operationId": "GetCert-AvailById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/cert-usage": {
+      "get": {
+        "summary": "GET operation on \"cert-usage\"",
+        "description": "This endpoint retrieves the device's \"cert-usage\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/cert-usage.",
+        "tags": [
+          "View Cert-Usage"
+        ],
+        "operationId": "GetCert-UsageById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/cert-key-type": {
+      "get": {
+        "summary": "GET operation on \"cert-key-type\"",
+        "description": "This endpoint retrieves the device's \"cert-key-type\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/cert-key-type.",
+        "tags": [
+          "View Cert-Key-Type"
+        ],
+        "operationId": "GetCert-Key-TypeById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/serial-number": {
+      "get": {
+        "summary": "GET operation on \"serial-number\"",
+        "description": "This endpoint retrieves the device's \"serial-number\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/serial-number.",
+        "tags": [
+          "View Serial-Number"
+        ],
+        "operationId": "GetSerial-NumberById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/subject-name": {
+      "get": {
+        "summary": "GET operation on \"subject-name\"",
+        "description": "This endpoint retrieves the device's \"subject-name\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/subject-name.",
+        "tags": [
+          "View Subject-Name"
+        ],
+        "operationId": "GetSubject-NameById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/issuer-name": {
+      "get": {
+        "summary": "GET operation on \"issuer-name\"",
+        "description": "This endpoint retrieves the device's \"issuer-name\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/issuer-name.",
+        "tags": [
+          "View Issuer-Name"
+        ],
+        "operationId": "GetIssuer-NameById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/storage": {
+      "get": {
+        "summary": "GET operation on \"storage\"",
+        "description": "This endpoint retrieves the device's \"storage\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/storage.",
+        "tags": [
+          "View Storage"
+        ],
+        "operationId": "GetStorageById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/md5-fp": {
+      "get": {
+        "summary": "GET operation on \"md5-fp\"",
+        "description": "This endpoint retrieves the device's \"md5-fp\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/md5-fp.",
+        "tags": [
+          "View Md5-Fp"
+        ],
+        "operationId": "GetMd5-FpById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/validity-start": {
+      "get": {
+        "summary": "GET operation on \"validity-start\"",
+        "description": "This endpoint retrieves the device's \"validity-start\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/validity-start.",
+        "tags": [
+          "View Validity-Start"
+        ],
+        "operationId": "GetValidity-StartById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/validity-end": {
+      "get": {
+        "summary": "GET operation on \"validity-end\"",
+        "description": "This endpoint retrieves the device's \"validity-end\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/validity-end.",
+        "tags": [
+          "View Validity-End"
+        ],
+        "operationId": "GetValidity-EndById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/asc-tp": {
+      "get": {
+        "summary": "GET operation on \"asc-tp\"",
+        "description": "This endpoint retrieves the device's \"asc-tp\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/asc-tp.",
+        "tags": [
+          "View Asc-Tp"
+        ],
+        "operationId": "GetAsc-TpElemById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-bundle={crypto-pki-bundle-label}/cert/asc-tp/tp-name": {
+      "get": {
+        "summary": "GET operation on \"tp-name\"",
+        "description": "This endpoint retrieves the device's \"tp-name\" resource at XPath: crypto-pki-oper-data/crypto-pki-bundle/cert/asc-tp/tp-name.",
+        "tags": [
+          "View Tp-Name"
+        ],
+        "operationId": "GetTp-NameById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters": {
+      "get": {
+        "summary": "GET operation on \"crypto-pki-counters\"",
+        "description": "This endpoint retrieves the device's \"crypto-pki-counters\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters.",
+        "tags": [
+          "View Crypto-Pki-Counters"
+        ],
+        "operationId": "GetCrypto-Pki-CountersById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/ses-started": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/ses-started": {
+      "get": {
+        "summary": "GET operation on \"ses-started\"",
+        "description": "This endpoint retrieves the device's \"ses-started\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/ses-started.",
+        "tags": [
+          "View Ses-Started"
+        ],
+        "operationId": "GetSes-StartedById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/ses-ended": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/ses-ended": {
+      "get": {
+        "summary": "GET operation on \"ses-ended\"",
+        "description": "This endpoint retrieves the device's \"ses-ended\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/ses-ended.",
+        "tags": [
+          "View Ses-Ended"
+        ],
+        "operationId": "GetSes-EndedById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/ses-active": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/ses-active": {
+      "get": {
+        "summary": "GET operation on \"ses-active\"",
+        "description": "This endpoint retrieves the device's \"ses-active\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/ses-active.",
+        "tags": [
+          "View Ses-Active"
+        ],
+        "operationId": "GetSes-ActiveById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/success-val": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/success-val": {
+      "get": {
+        "summary": "GET operation on \"success-val\"",
+        "description": "This endpoint retrieves the device's \"success-val\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/success-val.",
+        "tags": [
+          "View Success-Val"
+        ],
+        "operationId": "GetSuccess-ValById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/fail-val": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/fail-val": {
+      "get": {
+        "summary": "GET operation on \"fail-val\"",
+        "description": "This endpoint retrieves the device's \"fail-val\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/fail-val.",
+        "tags": [
+          "View Fail-Val"
+        ],
+        "operationId": "GetFail-ValById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/bypassed-val": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/bypassed-val": {
+      "get": {
+        "summary": "GET operation on \"bypassed-val\"",
+        "description": "This endpoint retrieves the device's \"bypassed-val\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/bypassed-val.",
+        "tags": [
+          "View Bypassed-Val"
+        ],
+        "operationId": "GetBypassed-ValById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/pend-val": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/pend-val": {
+      "get": {
+        "summary": "GET operation on \"pend-val\"",
+        "description": "This endpoint retrieves the device's \"pend-val\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/pend-val.",
+        "tags": [
+          "View Pend-Val"
+        ],
+        "operationId": "GetPend-ValById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/crl-checked": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/crl-checked": {
+      "get": {
+        "summary": "GET operation on \"crl-checked\"",
+        "description": "This endpoint retrieves the device's \"crl-checked\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/crl-checked.",
+        "tags": [
+          "View Crl-Checked"
+        ],
+        "operationId": "GetCrl-CheckedById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/crl-fetch-attempts": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/crl-fetch-attempts": {
+      "get": {
+        "summary": "GET operation on \"crl-fetch-attempts\"",
+        "description": "This endpoint retrieves the device's \"crl-fetch-attempts\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/crl-fetch-attempts.",
+        "tags": [
+          "View Crl-Fetch-Attempts"
+        ],
+        "operationId": "GetCrl-Fetch-AttemptsById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/crl-fail-attempts": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/crl-fail-attempts": {
+      "get": {
+        "summary": "GET operation on \"crl-fail-attempts\"",
+        "description": "This endpoint retrieves the device's \"crl-fail-attempts\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/crl-fail-attempts.",
+        "tags": [
+          "View Crl-Fail-Attempts"
+        ],
+        "operationId": "GetCrl-Fail-AttemptsById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/crl-busy-fetching": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/crl-busy-fetching": {
+      "get": {
+        "summary": "GET operation on \"crl-busy-fetching\"",
+        "description": "This endpoint retrieves the device's \"crl-busy-fetching\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/crl-busy-fetching.",
+        "tags": [
+          "View Crl-Busy-Fetching"
+        ],
+        "operationId": "GetCrl-Busy-FetchingById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters/aaa-auth": {},
+    "/data/Cisco-IOS-XE-crypto-pki-oper:crypto-pki-oper-data/crypto-pki-counters={crypto-pki-bundle-label}/aaa-auth": {
+      "get": {
+        "summary": "GET operation on \"aaa-auth\"",
+        "description": "This endpoint retrieves the device's \"aaa-auth\" resource at XPath: crypto-pki-oper-data/crypto-pki-counters/aaa-auth.",
+        "tags": [
+          "View Aaa-Auth"
+        ],
+        "operationId": "GetAaa-AuthById",
+        "parameters": [
+          {
+            "name": "crypto-pki-bundle-label",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Crypto-Pki-OperCrypto-Pki-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-oper-data": {
+            "type": "object",
+            "properties": {
+              "crypto-pki-bundle": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string"
+                  },
+                  "mode": {
+                    "type": "string"
+                  },
+                  "tp-authenticated": {
+                    "type": "boolean"
+                  },
+                  "tp-keys-generated": {
+                    "type": "boolean"
+                  },
+                  "tp-enrolled": {
+                    "type": "boolean"
+                  },
+                  "tp-scep-enrollment-in-progress": {
+                    "type": "boolean"
+                  },
+                  "key-export": {
+                    "type": "string"
+                  },
+                  "cert": {
+                    "type": "object",
+                    "properties": {
+                      "cert-avail": {
+                        "type": "string"
+                      },
+                      "cert-usage": {
+                        "type": "string"
+                      },
+                      "cert-key-type": {
+                        "type": "string"
+                      },
+                      "serial-number": {
+                        "type": "string"
+                      },
+                      "subject-name": {
+                        "type": "string"
+                      },
+                      "issuer-name": {
+                        "type": "string"
+                      },
+                      "storage": {
+                        "type": "string"
+                      },
+                      "md5-fp": {
+                        "type": "string"
+                      },
+                      "validity-start": {
+                        "type": "string"
+                      },
+                      "validity-end": {
+                        "type": "string"
+                      },
+                      "asc-tp": {
+                        "type": "object",
+                        "properties": {
+                          "tp-name": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "crypto-pki-counters": {
+                "type": "object",
+                "properties": {
+                  "ses-started": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "ses-ended": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "ses-active": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "success-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "fail-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "bypassed-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "pend-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-checked": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-fetch-attempts": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-fail-attempts": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-busy-fetching": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "aaa-auth": {
+                    "type": "integer",
+                    "format": "uint64"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Crypto-Pki-OperCrypto-Pki-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-oper-data": {
+            "type": "object",
+            "properties": {
+              "crypto-pki-bundle": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string"
+                  },
+                  "mode": {
+                    "type": "string"
+                  },
+                  "tp-authenticated": {
+                    "type": "boolean"
+                  },
+                  "tp-keys-generated": {
+                    "type": "boolean"
+                  },
+                  "tp-enrolled": {
+                    "type": "boolean"
+                  },
+                  "tp-scep-enrollment-in-progress": {
+                    "type": "boolean"
+                  },
+                  "key-export": {
+                    "type": "string"
+                  },
+                  "cert": {
+                    "type": "object",
+                    "properties": {
+                      "cert-avail": {
+                        "type": "string"
+                      },
+                      "cert-usage": {
+                        "type": "string"
+                      },
+                      "cert-key-type": {
+                        "type": "string"
+                      },
+                      "serial-number": {
+                        "type": "string"
+                      },
+                      "subject-name": {
+                        "type": "string"
+                      },
+                      "issuer-name": {
+                        "type": "string"
+                      },
+                      "storage": {
+                        "type": "string"
+                      },
+                      "md5-fp": {
+                        "type": "string"
+                      },
+                      "validity-start": {
+                        "type": "string"
+                      },
+                      "validity-end": {
+                        "type": "string"
+                      },
+                      "asc-tp": {
+                        "type": "object",
+                        "properties": {
+                          "tp-name": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "crypto-pki-counters": {
+                "type": "object",
+                "properties": {
+                  "ses-started": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "ses-ended": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "ses-active": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "success-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "fail-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "bypassed-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "pend-val": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-checked": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-fetch-attempts": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-fail-attempts": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "crl-busy-fetching": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "aaa-auth": {
+                    "type": "integer",
+                    "format": "uint64"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "crypto-pki-oper-data"
+        }
+      },
+      "Crypto-Pki-Oper-DataCrypto-Pki-BundleSchemaById": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-bundle": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "mode": {
+                  "type": "string"
+                },
+                "tp-authenticated": {
+                  "type": "boolean"
+                },
+                "tp-keys-generated": {
+                  "type": "boolean"
+                },
+                "tp-enrolled": {
+                  "type": "boolean"
+                },
+                "tp-scep-enrollment-in-progress": {
+                  "type": "boolean"
+                },
+                "key-export": {
+                  "type": "string"
+                },
+                "cert": {
+                  "type": "object",
+                  "properties": {
+                    "cert-avail": {
+                      "type": "string"
+                    },
+                    "cert-usage": {
+                      "type": "string"
+                    },
+                    "cert-key-type": {
+                      "type": "string"
+                    },
+                    "serial-number": {
+                      "type": "string"
+                    },
+                    "subject-name": {
+                      "type": "string"
+                    },
+                    "issuer-name": {
+                      "type": "string"
+                    },
+                    "storage": {
+                      "type": "string"
+                    },
+                    "md5-fp": {
+                      "type": "string"
+                    },
+                    "validity-start": {
+                      "type": "string"
+                    },
+                    "validity-end": {
+                      "type": "string"
+                    },
+                    "asc-tp": {
+                      "type": "object",
+                      "properties": {
+                        "tp-name": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Crypto-Pki-Oper-DataCrypto-Pki-BundleSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-bundle": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "format": "uint32"
+                },
+                "mode": {
+                  "type": "string"
+                },
+                "tp-authenticated": {
+                  "type": "boolean"
+                },
+                "tp-keys-generated": {
+                  "type": "boolean"
+                },
+                "tp-enrolled": {
+                  "type": "boolean"
+                },
+                "tp-scep-enrollment-in-progress": {
+                  "type": "boolean"
+                },
+                "key-export": {
+                  "type": "string"
+                },
+                "cert": {
+                  "type": "object",
+                  "properties": {
+                    "cert-avail": {
+                      "type": "string"
+                    },
+                    "cert-usage": {
+                      "type": "string"
+                    },
+                    "cert-key-type": {
+                      "type": "string"
+                    },
+                    "serial-number": {
+                      "type": "string"
+                    },
+                    "subject-name": {
+                      "type": "string"
+                    },
+                    "issuer-name": {
+                      "type": "string"
+                    },
+                    "storage": {
+                      "type": "string"
+                    },
+                    "md5-fp": {
+                      "type": "string"
+                    },
+                    "validity-start": {
+                      "type": "string"
+                    },
+                    "validity-end": {
+                      "type": "string"
+                    },
+                    "asc-tp": {
+                      "type": "object",
+                      "properties": {
+                        "tp-name": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "crypto-pki-bundle"
+        }
+      },
+      "Crypto-Pki-BundleCertSchemaById": {
+        "type": "object",
+        "properties": {
+          "cert": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "cert-avail": {
+                  "type": "string"
+                },
+                "cert-usage": {
+                  "type": "string"
+                },
+                "cert-key-type": {
+                  "type": "string"
+                },
+                "serial-number": {
+                  "type": "string"
+                },
+                "subject-name": {
+                  "type": "string"
+                },
+                "issuer-name": {
+                  "type": "string"
+                },
+                "storage": {
+                  "type": "string"
+                },
+                "md5-fp": {
+                  "type": "string"
+                },
+                "validity-start": {
+                  "type": "string"
+                },
+                "validity-end": {
+                  "type": "string"
+                },
+                "asc-tp": {
+                  "type": "object",
+                  "properties": {
+                    "tp-name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Crypto-Pki-BundleCertSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "cert": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "cert-avail": {
+                  "type": "string"
+                },
+                "cert-usage": {
+                  "type": "string"
+                },
+                "cert-key-type": {
+                  "type": "string"
+                },
+                "serial-number": {
+                  "type": "string"
+                },
+                "subject-name": {
+                  "type": "string"
+                },
+                "issuer-name": {
+                  "type": "string"
+                },
+                "storage": {
+                  "type": "string"
+                },
+                "md5-fp": {
+                  "type": "string"
+                },
+                "validity-start": {
+                  "type": "string"
+                },
+                "validity-end": {
+                  "type": "string"
+                },
+                "asc-tp": {
+                  "type": "object",
+                  "properties": {
+                    "tp-name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "cert"
+        }
+      },
+      "CertAsc-TpSchemaById": {
+        "type": "object",
+        "properties": {
+          "asc-tp": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tp-name": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "CertAsc-TpSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "asc-tp": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tp-name": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "asc-tp"
+        }
+      },
+      "Crypto-Pki-Oper-DataCrypto-Pki-CountersSchemaById": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-counters": {
+            "type": "object",
+            "properties": {
+              "bypassed-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-started": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-ended": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "pend-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "success-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-fetch-attempts": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "fail-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-busy-fetching": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-fail-attempts": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-active": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "aaa-auth": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-checked": {
+                "type": "integer",
+                "format": "uint64"
+              }
+            }
+          }
+        }
+      },
+      "Crypto-Pki-Oper-DataCrypto-Pki-CountersSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "crypto-pki-counters": {
+            "type": "object",
+            "properties": {
+              "bypassed-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-started": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-ended": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "pend-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "success-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-fetch-attempts": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "fail-val": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-busy-fetching": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-fail-attempts": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "ses-active": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "aaa-auth": {
+                "type": "integer",
+                "format": "uint64"
+              },
+              "crl-checked": {
+                "type": "integer",
+                "format": "uint64"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "crypto-pki-counters"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

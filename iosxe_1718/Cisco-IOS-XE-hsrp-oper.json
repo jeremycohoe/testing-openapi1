@@ -1,0 +1,3611 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data": {
+      "get": {
+        "summary": "GET operation on \"hsrp-oper-data\"",
+        "description": "This endpoint retrieves the device's \"hsrp-oper-data\" resource at XPath: hsrp-oper-data.",
+        "tags": [
+          "View Hsrp-Oper-Data"
+        ],
+        "operationId": "GetHsrp-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info": {
+      "get": {
+        "summary": "GET operation on \"hsrp-group-info\"",
+        "description": "This endpoint retrieves the device's \"hsrp-group-info\" resource at XPath: hsrp-oper-data/hsrp-group-info.",
+        "tags": [
+          "View Hsrp-Group-Info"
+        ],
+        "operationId": "GetHsrp-Group-InfoById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}": {
+      "get": {
+        "summary": "GET operation on \"hsrp-group-info\"",
+        "description": "This endpoint retrieves the device's \"hsrp-group-info\" resource at XPath: hsrp-oper-data/hsrp-group-info.",
+        "tags": [
+          "View Hsrp-Group-Info"
+        ],
+        "operationId": "GetHsrp-Group-InfoElemById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/priority": {
+      "get": {
+        "summary": "GET operation on \"priority\"",
+        "description": "This endpoint retrieves the device's \"priority\" resource at XPath: hsrp-oper-data/hsrp-group-info/priority.",
+        "tags": [
+          "View Priority"
+        ],
+        "operationId": "GetPriorityById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/preempt": {
+      "get": {
+        "summary": "GET operation on \"preempt\"",
+        "description": "This endpoint retrieves the device's \"preempt\" resource at XPath: hsrp-oper-data/hsrp-group-info/preempt.",
+        "tags": [
+          "View Preempt"
+        ],
+        "operationId": "GetPreemptById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: hsrp-oper-data/hsrp-group-info/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/active-ip": {
+      "get": {
+        "summary": "GET operation on \"active-ip\"",
+        "description": "This endpoint retrieves the device's \"active-ip\" resource at XPath: hsrp-oper-data/hsrp-group-info/active-ip.",
+        "tags": [
+          "View Active-Ip"
+        ],
+        "operationId": "GetActive-IpById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/standby-ip": {
+      "get": {
+        "summary": "GET operation on \"standby-ip\"",
+        "description": "This endpoint retrieves the device's \"standby-ip\" resource at XPath: hsrp-oper-data/hsrp-group-info/standby-ip.",
+        "tags": [
+          "View Standby-Ip"
+        ],
+        "operationId": "GetStandby-IpById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info={hsrp-group-info-group-id},{hsrp-group-info-if-name}/virtual-ip": {
+      "get": {
+        "summary": "GET operation on \"virtual-ip\"",
+        "description": "This endpoint retrieves the device's \"virtual-ip\" resource at XPath: hsrp-oper-data/hsrp-group-info/virtual-ip.",
+        "tags": [
+          "View Virtual-Ip"
+        ],
+        "operationId": "GetVirtual-IpById",
+        "parameters": [
+          {
+            "name": "hsrp-group-info-group-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "uint16"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "hsrp-group-info-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info/group-id": {},
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-group-info/if-name": {},
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor": {
+      "get": {
+        "summary": "GET operation on \"hsrp-neighbor\"",
+        "description": "This endpoint retrieves the device's \"hsrp-neighbor\" resource at XPath: hsrp-oper-data/hsrp-neighbor.",
+        "tags": [
+          "View Hsrp-Neighbor"
+        ],
+        "operationId": "GetHsrp-NeighborById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}": {
+      "get": {
+        "summary": "GET operation on \"hsrp-neighbor\"",
+        "description": "This endpoint retrieves the device's \"hsrp-neighbor\" resource at XPath: hsrp-oper-data/hsrp-neighbor.",
+        "tags": [
+          "View Hsrp-Neighbor"
+        ],
+        "operationId": "GetHsrp-NeighborElemById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor/if-name": {},
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor": {
+      "get": {
+        "summary": "GET operation on \"neighbor\"",
+        "description": "This endpoint retrieves the device's \"neighbor\" resource at XPath: hsrp-oper-data/hsrp-neighbor/neighbor.",
+        "tags": [
+          "View Neighbor"
+        ],
+        "operationId": "GetNeighborElemById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/address": {
+      "get": {
+        "summary": "GET operation on \"address\"",
+        "description": "This endpoint retrieves the device's \"address\" resource at XPath: hsrp-oper-data/hsrp-neighbor/neighbor/address.",
+        "tags": [
+          "View Address"
+        ],
+        "operationId": "GetAddressById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/active-list": {},
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/standby-list": {},
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/passive": {
+      "get": {
+        "summary": "GET operation on \"passive\"",
+        "description": "This endpoint retrieves the device's \"passive\" resource at XPath: hsrp-oper-data/hsrp-neighbor/neighbor/passive.",
+        "tags": [
+          "View Passive"
+        ],
+        "operationId": "GetPassiveById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/passive-timer-remaining": {
+      "get": {
+        "summary": "GET operation on \"passive-timer-remaining\"",
+        "description": "This endpoint retrieves the device's \"passive-timer-remaining\" resource at XPath: hsrp-oper-data/hsrp-neighbor/neighbor/passive-timer-remaining.",
+        "tags": [
+          "View Passive-Timer-Remaining"
+        ],
+        "operationId": "GetPassive-Timer-RemainingById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-hsrp-oper:hsrp-oper-data/hsrp-neighbor={hsrp-neighbor-if-name}/neighbor/bfd-enabled": {
+      "get": {
+        "summary": "GET operation on \"bfd-enabled\"",
+        "description": "This endpoint retrieves the device's \"bfd-enabled\" resource at XPath: hsrp-oper-data/hsrp-neighbor/neighbor/bfd-enabled.",
+        "tags": [
+          "View Bfd-Enabled"
+        ],
+        "operationId": "GetBfd-EnabledById",
+        "parameters": [
+          {
+            "name": "hsrp-neighbor-if-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Hsrp-OperHsrp-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "hsrp-oper-data": {
+            "type": "object",
+            "properties": {
+              "hsrp-group-info": {
+                "type": "object",
+                "properties": {
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "preempt": {
+                    "type": "boolean"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "active-ip": {
+                    "type": "string"
+                  },
+                  "standby-ip": {
+                    "type": "string"
+                  },
+                  "virtual-ip": {
+                    "type": "string"
+                  },
+                  "group-id": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "if-name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "hsrp-neighbor": {
+                "type": "object",
+                "properties": {
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "neighbor": {
+                    "type": "object",
+                    "properties": {
+                      "address": {
+                        "type": "string"
+                      },
+                      "active-list": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "standby-list": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "passive": {
+                        "type": "boolean"
+                      },
+                      "passive-timer-remaining": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "bfd-enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Hsrp-OperHsrp-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "hsrp-oper-data": {
+            "type": "object",
+            "properties": {
+              "hsrp-group-info": {
+                "type": "object",
+                "properties": {
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "preempt": {
+                    "type": "boolean"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "active-ip": {
+                    "type": "string"
+                  },
+                  "standby-ip": {
+                    "type": "string"
+                  },
+                  "virtual-ip": {
+                    "type": "string"
+                  },
+                  "group-id": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "if-name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "hsrp-neighbor": {
+                "type": "object",
+                "properties": {
+                  "if-name": {
+                    "type": "string"
+                  },
+                  "neighbor": {
+                    "type": "object",
+                    "properties": {
+                      "address": {
+                        "type": "string"
+                      },
+                      "active-list": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "standby-list": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "passive": {
+                        "type": "boolean"
+                      },
+                      "passive-timer-remaining": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "bfd-enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "hsrp-oper-data"
+        }
+      },
+      "Hsrp-Oper-DataHsrp-Group-InfoSchemaById": {
+        "type": "object",
+        "properties": {
+          "hsrp-group-info": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "group-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "priority": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "preempt": {
+                  "type": "boolean"
+                },
+                "active-ip": {
+                  "type": "string"
+                },
+                "standby-ip": {
+                  "type": "string"
+                },
+                "virtual-ip": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Hsrp-Oper-DataHsrp-Group-InfoSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "hsrp-group-info": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "properties": {
+                    "rp": {
+                      "type": "string"
+                    },
+                    "info-source": {
+                      "type": "string"
+                    },
+                    "pim-per-rp-caps": {
+                      "type": "string"
+                    },
+                    "rp-uptime": {
+                      "type": "string"
+                    },
+                    "will-expire": {
+                      "type": "string"
+                    },
+                    "expires": {
+                      "type": "string"
+                    },
+                    "candidate-rp-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "holdtime": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "version": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "dr-priority": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "gen-id": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "neighbor-uptime": {
+                      "type": "string"
+                    },
+                    "pim-neighbor-caps": {
+                      "type": "string"
+                    },
+                    "pim-dr": {
+                      "type": "string"
+                    },
+                    "pim-if-addr": {
+                      "type": "string"
+                    },
+                    "neighbor-count": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "query-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "jp-interval": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "pim-mode": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "mfg-name": {
+                      "type": "string"
+                    },
+                    "serial-no": {
+                      "type": "string"
+                    },
+                    "part-no": {
+                      "type": "string"
+                    },
+                    "temp": {
+                      "type": "object",
+                      "properties": {
+                        "temp-instant": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-avg": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-max": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-min": {
+                          "type": "number",
+                          "format": "double"
+                        },
+                        "temp-interval": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "empty": {
+                      "type": "boolean"
+                    },
+                    "mfg-date": {
+                      "type": "string"
+                    },
+                    "firmware-ver": {
+                      "type": "string"
+                    },
+                    "removable": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "comp-alarm-data": {
+                      "type": "object",
+                      "properties": {
+                        "alarm-status": {
+                          "type": "boolean"
+                        },
+                        "alarm-threshold": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "severity": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "parent": {
+                      "type": "string"
+                    },
+                    "comp-mem-data": {
+                      "type": "object",
+                      "properties": {
+                        "mem-available": {
+                          "type": "integer",
+                          "format": "uint64"
+                        },
+                        "mem-utilized": {
+                          "type": "integer",
+                          "format": "uint64"
+                        }
+                      }
+                    },
+                    "alloc-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "used-pwr": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "status-desc": {
+                      "type": "string"
+                    }
+                  },
+                  "format": "ospf-ios-xe-oper:ospfv2-intf-state"
+                },
+                "group-id": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "priority": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "preempt": {
+                  "type": "boolean"
+                },
+                "active-ip": {
+                  "type": "string"
+                },
+                "standby-ip": {
+                  "type": "string"
+                },
+                "virtual-ip": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "hsrp-group-info"
+        }
+      },
+      "Hsrp-Oper-DataHsrp-NeighborSchemaById": {
+        "type": "object",
+        "properties": {
+          "hsrp-neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "neighbor": {
+                  "type": "object",
+                  "properties": {
+                    "afi-safi": {
+                      "type": "string"
+                    },
+                    "vrf-name": {
+                      "type": "string"
+                    },
+                    "neighbor-id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "bgp-version": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "link": {
+                      "type": "string"
+                    },
+                    "up-time": {
+                      "type": "string"
+                    },
+                    "last-write": {
+                      "type": "string"
+                    },
+                    "last-read": {
+                      "type": "string"
+                    },
+                    "installed-prefixes": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "session-state": {
+                      "type": "string"
+                    },
+                    "negotiated-keepalive-timers": {
+                      "type": "object",
+                      "properties": {
+                        "hold-time": {
+                          "type": "integer",
+                          "format": "uint16"
+                        },
+                        "keepalive-interval": {
+                          "type": "integer",
+                          "format": "uint16"
+                        }
+                      }
+                    },
+                    "negotiated-cap": {
+                      "type": "string"
+                    },
+                    "bgp-neighbor-counters": {
+                      "properties": {
+                        "sent": {
+                          "type": "object",
+                          "properties": {
+                            "opens": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "updates": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "notifications": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "keepalives": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-refreshes": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "received": {
+                          "type": "object",
+                          "properties": {
+                            "opens": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "updates": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "notifications": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "keepalives": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-refreshes": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "inq-depth": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "outq-depth": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "connection": {
+                      "type": "object",
+                      "properties": {
+                        "state": {
+                          "type": "string"
+                        },
+                        "mode": {
+                          "type": "string"
+                        },
+                        "total-established": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "total-dropped": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "last-reset": {
+                          "type": "string"
+                        },
+                        "reset-reason": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "transport": {
+                      "type": "object",
+                      "properties": {
+                        "path-mtu-discovery": {
+                          "type": "boolean"
+                        },
+                        "local-port": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "local-host": {
+                          "type": "string"
+                        },
+                        "foreign-port": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "foreign-host": {
+                          "type": "string"
+                        },
+                        "mss": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "ao-keychain-name": {
+                          "type": "string"
+                        },
+                        "ao-key-id": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "ao-incl-tcp-opts": {
+                          "type": "boolean"
+                        },
+                        "ao-accept-mismatch-conn": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "prefix-activity": {
+                      "properties": {
+                        "sent": {
+                          "type": "object",
+                          "properties": {
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "received": {
+                          "type": "object",
+                          "properties": {
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "as": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "encaps-pref": {
+                      "type": "string"
+                    },
+                    "peer-policy": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "total-inherited": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "index": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "configured-policies": {
+                          "type": "object",
+                          "properties": {
+                            "distribute-list-in": {
+                              "type": "string"
+                            },
+                            "prefix-list-in": {
+                              "type": "string"
+                            },
+                            "filter-list-in": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-map-in": {
+                              "type": "string"
+                            },
+                            "prefix-list-out": {
+                              "type": "string"
+                            },
+                            "distribute-list-out": {
+                              "type": "string"
+                            },
+                            "filter-list-out": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-map-out": {
+                              "type": "string"
+                            },
+                            "unsuppress-map": {
+                              "type": "string"
+                            },
+                            "default-originate": {
+                              "type": "boolean"
+                            },
+                            "default-map": {
+                              "type": "string"
+                            },
+                            "weight": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "soft-reconfig-in": {
+                              "type": "boolean"
+                            },
+                            "maximum-prefix": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "max-prefix-threshold": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "max-prefix-warning": {
+                              "type": "boolean"
+                            },
+                            "max-pfx-restart-interval": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "as-override": {
+                              "type": "boolean"
+                            },
+                            "as-override-split-horizon": {
+                              "type": "boolean"
+                            },
+                            "allow-as": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "allow-policy": {
+                              "type": "boolean"
+                            },
+                            "rr-client": {
+                              "type": "boolean"
+                            },
+                            "aigp": {
+                              "type": "boolean"
+                            },
+                            "aigp-med": {
+                              "type": "boolean"
+                            },
+                            "aigp-cost": {
+                              "type": "boolean"
+                            },
+                            "internal-vpn-client": {
+                              "type": "boolean"
+                            },
+                            "advertisement-interval": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "nexthop-unchanged": {
+                              "type": "boolean"
+                            },
+                            "nexthop-unchanged-all": {
+                              "type": "boolean"
+                            },
+                            "nexthop-self": {
+                              "type": "boolean"
+                            },
+                            "nexthop-self-all": {
+                              "type": "boolean"
+                            },
+                            "add-path-send": {
+                              "type": "boolean"
+                            },
+                            "add-path-rx": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-all": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-grp-best": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-bestn": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "adv-diverse-path": {
+                              "type": "string"
+                            },
+                            "adv-best-ext": {
+                              "type": "boolean"
+                            },
+                            "slow-peer-static": {
+                              "type": "boolean"
+                            },
+                            "sp-detect-thold": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "sp-dynamic": {
+                              "type": "boolean"
+                            },
+                            "sp-protection-permanent": {
+                              "type": "boolean"
+                            },
+                            "send-community": {
+                              "type": "string"
+                            },
+                            "flow-spec-validation-off": {
+                              "type": "boolean"
+                            },
+                            "valid-redirect-off": {
+                              "type": "boolean"
+                            },
+                            "remove-private-as": {
+                              "type": "boolean"
+                            },
+                            "remove-private-as-all": {
+                              "type": "boolean"
+                            },
+                            "rm-private-as-replace-as": {
+                              "type": "boolean"
+                            },
+                            "extcommunity": {
+                              "type": "string"
+                            },
+                            "rpki-state-enabled": {
+                              "type": "boolean"
+                            },
+                            "dmzlink-bw": {
+                              "type": "boolean"
+                            },
+                            "send-label": {
+                              "type": "boolean"
+                            },
+                            "send-label-explicit-null": {
+                              "type": "boolean"
+                            },
+                            "encap": {
+                              "type": "string"
+                            },
+                            "cap-orf-prefix-list": {
+                              "type": "string"
+                            },
+                            "translate-topology": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "accept-route-legacy-rt": {
+                              "type": "boolean"
+                            },
+                            "inter-as-hybrid": {
+                              "type": "boolean"
+                            },
+                            "suppress-ldp": {
+                              "type": "boolean"
+                            },
+                            "llgr-stale-time-send": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "llgr-stale-time-accept": {
+                              "type": "integer",
+                              "format": "uint32"
+                            }
+                          }
+                        },
+                        "inherited-policies": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "configured-policies": {
+                              "type": "object",
+                              "properties": {
+                                "distribute-list-in": {
+                                  "type": "string"
+                                },
+                                "prefix-list-in": {
+                                  "type": "string"
+                                },
+                                "filter-list-in": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "route-map-in": {
+                                  "type": "string"
+                                },
+                                "prefix-list-out": {
+                                  "type": "string"
+                                },
+                                "distribute-list-out": {
+                                  "type": "string"
+                                },
+                                "filter-list-out": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "route-map-out": {
+                                  "type": "string"
+                                },
+                                "unsuppress-map": {
+                                  "type": "string"
+                                },
+                                "default-originate": {
+                                  "type": "boolean"
+                                },
+                                "default-map": {
+                                  "type": "string"
+                                },
+                                "weight": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "soft-reconfig-in": {
+                                  "type": "boolean"
+                                },
+                                "maximum-prefix": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "max-prefix-threshold": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "max-prefix-warning": {
+                                  "type": "boolean"
+                                },
+                                "max-pfx-restart-interval": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "as-override": {
+                                  "type": "boolean"
+                                },
+                                "as-override-split-horizon": {
+                                  "type": "boolean"
+                                },
+                                "allow-as": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "allow-policy": {
+                                  "type": "boolean"
+                                },
+                                "rr-client": {
+                                  "type": "boolean"
+                                },
+                                "aigp": {
+                                  "type": "boolean"
+                                },
+                                "aigp-med": {
+                                  "type": "boolean"
+                                },
+                                "aigp-cost": {
+                                  "type": "boolean"
+                                },
+                                "internal-vpn-client": {
+                                  "type": "boolean"
+                                },
+                                "advertisement-interval": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "nexthop-unchanged": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-unchanged-all": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-self": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-self-all": {
+                                  "type": "boolean"
+                                },
+                                "add-path-send": {
+                                  "type": "boolean"
+                                },
+                                "add-path-rx": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-all": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-grp-best": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-bestn": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "adv-diverse-path": {
+                                  "type": "string"
+                                },
+                                "adv-best-ext": {
+                                  "type": "boolean"
+                                },
+                                "slow-peer-static": {
+                                  "type": "boolean"
+                                },
+                                "sp-detect-thold": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "sp-dynamic": {
+                                  "type": "boolean"
+                                },
+                                "sp-protection-permanent": {
+                                  "type": "boolean"
+                                },
+                                "send-community": {
+                                  "type": "string"
+                                },
+                                "flow-spec-validation-off": {
+                                  "type": "boolean"
+                                },
+                                "valid-redirect-off": {
+                                  "type": "boolean"
+                                },
+                                "remove-private-as": {
+                                  "type": "boolean"
+                                },
+                                "remove-private-as-all": {
+                                  "type": "boolean"
+                                },
+                                "rm-private-as-replace-as": {
+                                  "type": "boolean"
+                                },
+                                "extcommunity": {
+                                  "type": "string"
+                                },
+                                "rpki-state-enabled": {
+                                  "type": "boolean"
+                                },
+                                "dmzlink-bw": {
+                                  "type": "boolean"
+                                },
+                                "send-label": {
+                                  "type": "boolean"
+                                },
+                                "send-label-explicit-null": {
+                                  "type": "boolean"
+                                },
+                                "encap": {
+                                  "type": "string"
+                                },
+                                "cap-orf-prefix-list": {
+                                  "type": "string"
+                                },
+                                "translate-topology": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "accept-route-legacy-rt": {
+                                  "type": "boolean"
+                                },
+                                "inter-as-hybrid": {
+                                  "type": "boolean"
+                                },
+                                "suppress-ldp": {
+                                  "type": "boolean"
+                                },
+                                "llgr-stale-time-send": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "llgr-stale-time-accept": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "active-list": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "standby-list": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "passive": {
+                      "type": "boolean"
+                    },
+                    "passive-timer-remaining": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "bfd-enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Hsrp-Oper-DataHsrp-NeighborSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "hsrp-neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "if-name": {
+                  "type": "string"
+                },
+                "neighbor": {
+                  "type": "object",
+                  "properties": {
+                    "afi-safi": {
+                      "type": "string"
+                    },
+                    "vrf-name": {
+                      "type": "string"
+                    },
+                    "neighbor-id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "bgp-version": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "link": {
+                      "type": "string"
+                    },
+                    "up-time": {
+                      "type": "string"
+                    },
+                    "last-write": {
+                      "type": "string"
+                    },
+                    "last-read": {
+                      "type": "string"
+                    },
+                    "installed-prefixes": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "session-state": {
+                      "type": "string"
+                    },
+                    "negotiated-keepalive-timers": {
+                      "type": "object",
+                      "properties": {
+                        "hold-time": {
+                          "type": "integer",
+                          "format": "uint16"
+                        },
+                        "keepalive-interval": {
+                          "type": "integer",
+                          "format": "uint16"
+                        }
+                      }
+                    },
+                    "negotiated-cap": {
+                      "type": "string"
+                    },
+                    "bgp-neighbor-counters": {
+                      "properties": {
+                        "sent": {
+                          "type": "object",
+                          "properties": {
+                            "opens": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "updates": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "notifications": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "keepalives": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-refreshes": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "received": {
+                          "type": "object",
+                          "properties": {
+                            "opens": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "updates": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "notifications": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "keepalives": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-refreshes": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "inq-depth": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "outq-depth": {
+                          "type": "integer",
+                          "format": "uint32"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "connection": {
+                      "type": "object",
+                      "properties": {
+                        "state": {
+                          "type": "string"
+                        },
+                        "mode": {
+                          "type": "string"
+                        },
+                        "total-established": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "total-dropped": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "last-reset": {
+                          "type": "string"
+                        },
+                        "reset-reason": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "transport": {
+                      "type": "object",
+                      "properties": {
+                        "path-mtu-discovery": {
+                          "type": "boolean"
+                        },
+                        "local-port": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "local-host": {
+                          "type": "string"
+                        },
+                        "foreign-port": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "foreign-host": {
+                          "type": "string"
+                        },
+                        "mss": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "ao-keychain-name": {
+                          "type": "string"
+                        },
+                        "ao-key-id": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "ao-incl-tcp-opts": {
+                          "type": "boolean"
+                        },
+                        "ao-accept-mismatch-conn": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "prefix-activity": {
+                      "properties": {
+                        "sent": {
+                          "type": "object",
+                          "properties": {
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        },
+                        "received": {
+                          "type": "object",
+                          "properties": {
+                            "current-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "total-prefixes": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "implicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "explicit-withdraw": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "bestpaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            },
+                            "multipaths": {
+                              "type": "integer",
+                              "format": "uint64"
+                            }
+                          }
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "as": {
+                      "type": "integer",
+                      "format": "uint32"
+                    },
+                    "encaps-pref": {
+                      "type": "string"
+                    },
+                    "peer-policy": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "total-inherited": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "index": {
+                          "type": "integer",
+                          "format": "uint32"
+                        },
+                        "configured-policies": {
+                          "type": "object",
+                          "properties": {
+                            "distribute-list-in": {
+                              "type": "string"
+                            },
+                            "prefix-list-in": {
+                              "type": "string"
+                            },
+                            "filter-list-in": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-map-in": {
+                              "type": "string"
+                            },
+                            "prefix-list-out": {
+                              "type": "string"
+                            },
+                            "distribute-list-out": {
+                              "type": "string"
+                            },
+                            "filter-list-out": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "route-map-out": {
+                              "type": "string"
+                            },
+                            "unsuppress-map": {
+                              "type": "string"
+                            },
+                            "default-originate": {
+                              "type": "boolean"
+                            },
+                            "default-map": {
+                              "type": "string"
+                            },
+                            "weight": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "soft-reconfig-in": {
+                              "type": "boolean"
+                            },
+                            "maximum-prefix": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "max-prefix-threshold": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "max-prefix-warning": {
+                              "type": "boolean"
+                            },
+                            "max-pfx-restart-interval": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "as-override": {
+                              "type": "boolean"
+                            },
+                            "as-override-split-horizon": {
+                              "type": "boolean"
+                            },
+                            "allow-as": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "allow-policy": {
+                              "type": "boolean"
+                            },
+                            "rr-client": {
+                              "type": "boolean"
+                            },
+                            "aigp": {
+                              "type": "boolean"
+                            },
+                            "aigp-med": {
+                              "type": "boolean"
+                            },
+                            "aigp-cost": {
+                              "type": "boolean"
+                            },
+                            "internal-vpn-client": {
+                              "type": "boolean"
+                            },
+                            "advertisement-interval": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "nexthop-unchanged": {
+                              "type": "boolean"
+                            },
+                            "nexthop-unchanged-all": {
+                              "type": "boolean"
+                            },
+                            "nexthop-self": {
+                              "type": "boolean"
+                            },
+                            "nexthop-self-all": {
+                              "type": "boolean"
+                            },
+                            "add-path-send": {
+                              "type": "boolean"
+                            },
+                            "add-path-rx": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-all": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-grp-best": {
+                              "type": "boolean"
+                            },
+                            "adv-add-path-bestn": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "adv-diverse-path": {
+                              "type": "string"
+                            },
+                            "adv-best-ext": {
+                              "type": "boolean"
+                            },
+                            "slow-peer-static": {
+                              "type": "boolean"
+                            },
+                            "sp-detect-thold": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "sp-dynamic": {
+                              "type": "boolean"
+                            },
+                            "sp-protection-permanent": {
+                              "type": "boolean"
+                            },
+                            "send-community": {
+                              "type": "string"
+                            },
+                            "flow-spec-validation-off": {
+                              "type": "boolean"
+                            },
+                            "valid-redirect-off": {
+                              "type": "boolean"
+                            },
+                            "remove-private-as": {
+                              "type": "boolean"
+                            },
+                            "remove-private-as-all": {
+                              "type": "boolean"
+                            },
+                            "rm-private-as-replace-as": {
+                              "type": "boolean"
+                            },
+                            "extcommunity": {
+                              "type": "string"
+                            },
+                            "rpki-state-enabled": {
+                              "type": "boolean"
+                            },
+                            "dmzlink-bw": {
+                              "type": "boolean"
+                            },
+                            "send-label": {
+                              "type": "boolean"
+                            },
+                            "send-label-explicit-null": {
+                              "type": "boolean"
+                            },
+                            "encap": {
+                              "type": "string"
+                            },
+                            "cap-orf-prefix-list": {
+                              "type": "string"
+                            },
+                            "translate-topology": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "accept-route-legacy-rt": {
+                              "type": "boolean"
+                            },
+                            "inter-as-hybrid": {
+                              "type": "boolean"
+                            },
+                            "suppress-ldp": {
+                              "type": "boolean"
+                            },
+                            "llgr-stale-time-send": {
+                              "type": "integer",
+                              "format": "uint32"
+                            },
+                            "llgr-stale-time-accept": {
+                              "type": "integer",
+                              "format": "uint32"
+                            }
+                          }
+                        },
+                        "inherited-policies": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "configured-policies": {
+                              "type": "object",
+                              "properties": {
+                                "distribute-list-in": {
+                                  "type": "string"
+                                },
+                                "prefix-list-in": {
+                                  "type": "string"
+                                },
+                                "filter-list-in": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "route-map-in": {
+                                  "type": "string"
+                                },
+                                "prefix-list-out": {
+                                  "type": "string"
+                                },
+                                "distribute-list-out": {
+                                  "type": "string"
+                                },
+                                "filter-list-out": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "route-map-out": {
+                                  "type": "string"
+                                },
+                                "unsuppress-map": {
+                                  "type": "string"
+                                },
+                                "default-originate": {
+                                  "type": "boolean"
+                                },
+                                "default-map": {
+                                  "type": "string"
+                                },
+                                "weight": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "soft-reconfig-in": {
+                                  "type": "boolean"
+                                },
+                                "maximum-prefix": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "max-prefix-threshold": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "max-prefix-warning": {
+                                  "type": "boolean"
+                                },
+                                "max-pfx-restart-interval": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "as-override": {
+                                  "type": "boolean"
+                                },
+                                "as-override-split-horizon": {
+                                  "type": "boolean"
+                                },
+                                "allow-as": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "allow-policy": {
+                                  "type": "boolean"
+                                },
+                                "rr-client": {
+                                  "type": "boolean"
+                                },
+                                "aigp": {
+                                  "type": "boolean"
+                                },
+                                "aigp-med": {
+                                  "type": "boolean"
+                                },
+                                "aigp-cost": {
+                                  "type": "boolean"
+                                },
+                                "internal-vpn-client": {
+                                  "type": "boolean"
+                                },
+                                "advertisement-interval": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "nexthop-unchanged": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-unchanged-all": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-self": {
+                                  "type": "boolean"
+                                },
+                                "nexthop-self-all": {
+                                  "type": "boolean"
+                                },
+                                "add-path-send": {
+                                  "type": "boolean"
+                                },
+                                "add-path-rx": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-all": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-grp-best": {
+                                  "type": "boolean"
+                                },
+                                "adv-add-path-bestn": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "adv-diverse-path": {
+                                  "type": "string"
+                                },
+                                "adv-best-ext": {
+                                  "type": "boolean"
+                                },
+                                "slow-peer-static": {
+                                  "type": "boolean"
+                                },
+                                "sp-detect-thold": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "sp-dynamic": {
+                                  "type": "boolean"
+                                },
+                                "sp-protection-permanent": {
+                                  "type": "boolean"
+                                },
+                                "send-community": {
+                                  "type": "string"
+                                },
+                                "flow-spec-validation-off": {
+                                  "type": "boolean"
+                                },
+                                "valid-redirect-off": {
+                                  "type": "boolean"
+                                },
+                                "remove-private-as": {
+                                  "type": "boolean"
+                                },
+                                "remove-private-as-all": {
+                                  "type": "boolean"
+                                },
+                                "rm-private-as-replace-as": {
+                                  "type": "boolean"
+                                },
+                                "extcommunity": {
+                                  "type": "string"
+                                },
+                                "rpki-state-enabled": {
+                                  "type": "boolean"
+                                },
+                                "dmzlink-bw": {
+                                  "type": "boolean"
+                                },
+                                "send-label": {
+                                  "type": "boolean"
+                                },
+                                "send-label-explicit-null": {
+                                  "type": "boolean"
+                                },
+                                "encap": {
+                                  "type": "string"
+                                },
+                                "cap-orf-prefix-list": {
+                                  "type": "string"
+                                },
+                                "translate-topology": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "accept-route-legacy-rt": {
+                                  "type": "boolean"
+                                },
+                                "inter-as-hybrid": {
+                                  "type": "boolean"
+                                },
+                                "suppress-ldp": {
+                                  "type": "boolean"
+                                },
+                                "llgr-stale-time-send": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                },
+                                "llgr-stale-time-accept": {
+                                  "type": "integer",
+                                  "format": "uint32"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "active-list": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "standby-list": {
+                      "type": "integer",
+                      "format": "uint8"
+                    },
+                    "passive": {
+                      "type": "boolean"
+                    },
+                    "passive-timer-remaining": {
+                      "type": "integer",
+                      "format": "uint16"
+                    },
+                    "bfd-enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "hsrp-neighbor"
+        }
+      },
+      "Hsrp-NeighborNeighborSchemaById": {
+        "type": "object",
+        "properties": {
+          "neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "address": {
+                  "type": "string"
+                },
+                "active-list": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "standby-list": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "passive": {
+                  "type": "boolean"
+                },
+                "passive-timer-remaining": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "bfd-enabled": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Hsrp-NeighborNeighborSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "neighbor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "address": {
+                  "type": "string"
+                },
+                "active-list": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "standby-list": {
+                  "type": "integer",
+                  "format": "uint8"
+                },
+                "passive": {
+                  "type": "boolean"
+                },
+                "passive-timer-remaining": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "bfd-enabled": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "neighbor"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}

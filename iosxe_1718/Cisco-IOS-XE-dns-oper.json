@@ -1,0 +1,763 @@
+{
+  "paths": {
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data": {
+      "get": {
+        "summary": "GET operation on \"dns-oper-data\"",
+        "description": "This endpoint retrieves the device's \"dns-oper-data\" resource at XPath: dns-oper-data.",
+        "tags": [
+          "View Dns-Oper-Data"
+        ],
+        "operationId": "GetDns-Oper-DataById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server": {
+      "get": {
+        "summary": "GET operation on \"dns-name-server\"",
+        "description": "This endpoint retrieves the device's \"dns-name-server\" resource at XPath: dns-oper-data/dns-name-server.",
+        "tags": [
+          "View Dns-Name-Server"
+        ],
+        "operationId": "GetDns-Name-ServerById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server={dns-name-server-ni-name},{dns-name-server-ni-type}": {
+      "get": {
+        "summary": "GET operation on \"dns-name-server\"",
+        "description": "This endpoint retrieves the device's \"dns-name-server\" resource at XPath: dns-oper-data/dns-name-server.",
+        "tags": [
+          "View Dns-Name-Server"
+        ],
+        "operationId": "GetDns-Name-ServerElemById",
+        "parameters": [
+          {
+            "name": "dns-name-server-ni-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "dns-name-server-ni-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server={dns-name-server-ni-name},{dns-name-server-ni-type}/name-server": {
+      "get": {
+        "summary": "GET operation on \"name-server\"",
+        "description": "This endpoint retrieves the device's \"name-server\" resource at XPath: dns-oper-data/dns-name-server/name-server.",
+        "tags": [
+          "View Name-Server"
+        ],
+        "operationId": "GetName-ServerElemById",
+        "parameters": [
+          {
+            "name": "dns-name-server-ni-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "dns-name-server-ni-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server={dns-name-server-ni-name},{dns-name-server-ni-type}/name-server/ip-addr": {
+      "get": {
+        "summary": "GET operation on \"ip-addr\"",
+        "description": "This endpoint retrieves the device's \"ip-addr\" resource at XPath: dns-oper-data/dns-name-server/name-server/ip-addr.",
+        "tags": [
+          "View Ip-Addr"
+        ],
+        "operationId": "GetIp-AddrById",
+        "parameters": [
+          {
+            "name": "dns-name-server-ni-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "dns-name-server-ni-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server={dns-name-server-ni-name},{dns-name-server-ni-type}/name-server/source": {
+      "get": {
+        "summary": "GET operation on \"source\"",
+        "description": "This endpoint retrieves the device's \"source\" resource at XPath: dns-oper-data/dns-name-server/name-server/source.",
+        "tags": [
+          "View Source"
+        ],
+        "operationId": "GetSourceById",
+        "parameters": [
+          {
+            "name": "dns-name-server-ni-name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          },
+          {
+            "name": "dns-name-server-ni-type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "List key"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              },
+              "application/yang-data+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/placeholder"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server/ni-name": {},
+    "/data/Cisco-IOS-XE-dns-oper:dns-oper-data/dns-name-server/ni-type": {}
+  },
+  "openapi": "3.0.3",
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic",
+        "description": "Basic HTTP Authentication"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "API Key Authentication"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Bearer Token Authentication"
+      }
+    },
+    "schemas": {
+      "placeholder": {
+        "type": "object",
+        "description": "Actual schema is not yet defined.",
+        "additionalProperties": true
+      },
+      "Cisco-Ios-Xe-Dns-OperDns-Oper-DataSchemaById": {
+        "type": "object",
+        "properties": {
+          "dns-oper-data": {
+            "type": "object",
+            "properties": {
+              "dns-name-server": {
+                "properties": {
+                  "name-server": {
+                    "type": "object",
+                    "properties": {
+                      "ip-addr": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "ni-name": {
+                    "type": "string"
+                  },
+                  "ni-type": {
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Cisco-Ios-Xe-Dns-OperDns-Oper-DataSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "dns-oper-data": {
+            "type": "object",
+            "properties": {
+              "dns-name-server": {
+                "properties": {
+                  "name-server": {
+                    "type": "object",
+                    "properties": {
+                      "ip-addr": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "ni-name": {
+                    "type": "string"
+                  },
+                  "ni-type": {
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "dns-oper-data"
+        }
+      },
+      "Dns-Oper-DataDns-Name-ServerSchemaById": {
+        "type": "object",
+        "properties": {
+          "dns-name-server": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ni-type": {
+                  "type": "string"
+                },
+                "name-server": {
+                  "type": "object",
+                  "properties": {
+                    "ip-addr": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "ni-name": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Dns-Oper-DataDns-Name-ServerSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "dns-name-server": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ni-type": {
+                  "type": "string"
+                },
+                "name-server": {
+                  "type": "object",
+                  "properties": {
+                    "ip-addr": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "ni-name": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "dns-name-server"
+        }
+      },
+      "Dns-Name-ServerName-ServerSchemaById": {
+        "type": "object",
+        "properties": {
+          "name-server": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "address": {
+                      "type": "string"
+                    },
+                    "mask": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "ip-addr": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Dns-Name-ServerName-ServerSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "name-server": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "address": {
+                      "type": "string"
+                    },
+                    "mask": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "ip-addr": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "name-server"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://<HOST ADDRESS>/restconf",
+      "description": "Example RESTCONF API Endpoint"
+    }
+  ],
+  "info": {
+    "description": "OpenAPI v3.0.3",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3",
+    "contact": {
+      "name": "Yang Suite External Support",
+      "email": "yangsuite-support-ext@cisco.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  }
+}
