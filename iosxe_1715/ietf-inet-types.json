@@ -39,7 +39,7 @@
   ],
   "servers": [
     {
-      "url": "http://<HOST ADDRESS>/restconf",
+      "url": "http://<HOST ff ADDRESS>/restconf",
       "description": "Example RESTCONF API Endpoint"
     }
   ],
